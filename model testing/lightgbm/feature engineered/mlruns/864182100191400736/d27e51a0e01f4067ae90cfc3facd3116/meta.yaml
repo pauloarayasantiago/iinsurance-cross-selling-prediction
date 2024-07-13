@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/864182100191400736/d27e51a0e01f4067ae90cfc3facd3116/artifacts
+end_time: 1720842643935
+entry_point_name: ''
+experiment_id: '864182100191400736'
+lifecycle_stage: active
+run_id: d27e51a0e01f4067ae90cfc3facd3116
+run_name: marvelous-snake-268
+run_uuid: d27e51a0e01f4067ae90cfc3facd3116
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720842639215
+status: 3
+tags: []
+user_id: paulo
