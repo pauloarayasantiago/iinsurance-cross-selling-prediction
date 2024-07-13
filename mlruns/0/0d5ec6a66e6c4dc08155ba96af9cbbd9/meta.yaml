@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/paulo/OneDrive/Documents/Binary-Classification-of-Insurance-Cross-Selling/mlruns/0/0d5ec6a66e6c4dc08155ba96af9cbbd9/artifacts
+end_time: 1720850661061
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d5ec6a66e6c4dc08155ba96af9cbbd9
+run_name: popular-moose-817
+run_uuid: 0d5ec6a66e6c4dc08155ba96af9cbbd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720850659112
+status: 4
+tags: []
+user_id: paulo

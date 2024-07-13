@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/paulo/OneDrive/Documents/Binary-Classification-of-Insurance-Cross-Selling/mlruns/0/1b93185351f94da584ab99227869f9e9/artifacts
+end_time: 1720850406764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b93185351f94da584ab99227869f9e9
+run_name: classy-snake-253
+run_uuid: 1b93185351f94da584ab99227869f9e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720850406707
+status: 4
+tags: []
+user_id: paulo

@@ -1,0 +1,10 @@
+2024-07-13 01:38:31,742 - __main__ - INFO - Train dataset shape: (11465233, 11)
+2024-07-13 01:38:31,743 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-13 01:38:32,025 - __main__ - INFO - Interaction features created: Age_Annual_Premium, Age_Vintage, Annual_Premium_Vintage, Age_Region_Code, Vintage_Region_Code, Annual_Premium_Region_Code
+2024-07-13 01:39:04,510 - __main__ - INFO - Target encoding performed for categorical variables.
+2024-07-13 01:39:06,584 - __main__ - INFO - Polynomial features created with degree 2 for Age, Annual_Premium, and Vintage
+2024-07-13 01:39:25,643 - __main__ - INFO - Training set shape: (9172186, 22)
+2024-07-13 01:39:25,644 - __main__ - INFO - Validation set shape: (2293047, 22)
+2024-07-13 12:50:04,826 - __main__ - INFO - Train dataset shape: (11465233, 11)
+2024-07-13 12:50:04,826 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-13 12:50:05,065 - __main__ - INFO - Interaction features created: Age_Annual_Premium, Age_Vintage, Annual_Premium_Vintage, Age_Region_Code, Vintage_Region_Code, Annual_Premium_Region_Code

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/paulo/OneDrive/Documents/Binary-Classification-of-Insurance-Cross-Selling/mlruns/0/abf986f0b9e04009a1c640b9019a552f/artifacts
+end_time: 1720850616333
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: abf986f0b9e04009a1c640b9019a552f
+run_name: capricious-dog-813
+run_uuid: abf986f0b9e04009a1c640b9019a552f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720850612852
+status: 4
+tags: []
+user_id: paulo

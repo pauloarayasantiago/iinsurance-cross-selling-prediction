@@ -1,0 +1,278 @@
+INFO:__main__:Libraries imported and directories set up.
+INFO:__main__:Loading datasets...
+INFO:__main__:Datasets loaded successfully.
+INFO:__main__:Train dataset shape: (11504798, 11)
+INFO:__main__:Test dataset shape: (7669866, 10)
+INFO:__main__:Train dataset info: None
+INFO:__main__:Test dataset info: None
+INFO:__main__:Missing values in train dataset:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+Response                0
+dtype: int64
+INFO:__main__:Missing values in test dataset:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+dtype: int64
+INFO:__main__:First few rows of train dataset:
+    Gender  Age  Driving_License  Region_Code  Previously_Insured Vehicle_Age  \
+id                                                                              
+0     Male   21                1         35.0                   0    1-2 Year   
+1     Male   43                1         28.0                   0   > 2 Years   
+2   Female   25                1         14.0                   1    < 1 Year   
+3   Female   35                1          1.0                   0    1-2 Year   
+4   Female   36                1         15.0                   1    1-2 Year   
+
+   Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  Vintage  Response  
+id                                                                          
+0             Yes         65101.0                 124.0      187         0  
+1             Yes         58911.0                  26.0      288         1  
+2              No         38043.0                 152.0      254         0  
+3             Yes          2630.0                 156.0       76         0  
+4              No         31951.0                 152.0      294         0  
+INFO:__main__:First few rows of test dataset:
+          Gender  Age  Driving_License  Region_Code  Previously_Insured  \
+id                                                                        
+11504798  Female   20                1         47.0                   0   
+11504799    Male   47                1         28.0                   0   
+11504800    Male   47                1         43.0                   0   
+11504801  Female   22                1         47.0                   1   
+11504802    Male   51                1         19.0                   0   
+
+         Vehicle_Age Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+id                                                                          
+11504798    < 1 Year             No          2630.0                 160.0   
+11504799    1-2 Year            Yes         37483.0                 124.0   
+11504800    1-2 Year            Yes          2630.0                  26.0   
+11504801    < 1 Year             No         24502.0                 152.0   
+11504802    1-2 Year             No         34115.0                 124.0   
+
+          Vintage  
+id                 
+11504798      228  
+11504799      123  
+11504800      271  
+11504801      115  
+11504802      148  
+INFO:__main__:Train dataset descriptive statistics:
+                Age  Driving_License   Region_Code  Previously_Insured  \
+count  1.150480e+07     1.150480e+07  1.150480e+07        1.150480e+07   
+mean   3.838356e+01     9.980220e-01  2.641869e+01        4.629966e-01   
+std    1.499346e+01     4.443120e-02  1.299159e+01        4.986289e-01   
+min    2.000000e+01     0.000000e+00  0.000000e+00        0.000000e+00   
+25%    2.400000e+01     1.000000e+00  1.500000e+01        0.000000e+00   
+50%    3.600000e+01     1.000000e+00  2.800000e+01        0.000000e+00   
+75%    4.900000e+01     1.000000e+00  3.500000e+01        1.000000e+00   
+max    8.500000e+01     1.000000e+00  5.200000e+01        1.000000e+00   
+
+       Annual_Premium  Policy_Sales_Channel       Vintage      Response  
+count    1.150480e+07          1.150480e+07  1.150480e+07  1.150480e+07  
+mean     3.046137e+04          1.124254e+02  1.638977e+02  1.229973e-01  
+std      1.645475e+04          5.403571e+01  7.997953e+01  3.284341e-01  
+min      2.630000e+03          1.000000e+00  1.000000e+01  0.000000e+00  
+25%      2.527700e+04          2.900000e+01  9.900000e+01  0.000000e+00  
+50%      3.182400e+04          1.510000e+02  1.660000e+02  0.000000e+00  
+75%      3.945100e+04          1.520000e+02  2.320000e+02  0.000000e+00  
+max      5.401650e+05          1.630000e+02  2.990000e+02  1.000000e+00  
+INFO:__main__:Test dataset descriptive statistics:
+                Age  Driving_License   Region_Code  Previously_Insured  \
+count  7.669866e+06     7.669866e+06  7.669866e+06        7.669866e+06   
+mean   3.839137e+01     9.980208e-01  2.642661e+01        4.630772e-01   
+std    1.499951e+01     4.444387e-02  1.299433e+01        4.986349e-01   
+min    2.000000e+01     0.000000e+00  0.000000e+00        0.000000e+00   
+25%    2.400000e+01     1.000000e+00  1.500000e+01        0.000000e+00   
+50%    3.600000e+01     1.000000e+00  2.800000e+01        0.000000e+00   
+75%    4.900000e+01     1.000000e+00  3.500000e+01        1.000000e+00   
+max    8.500000e+01     1.000000e+00  5.200000e+01        1.000000e+00   
+
+       Annual_Premium  Policy_Sales_Channel       Vintage  
+count    7.669866e+06          7.669866e+06  7.669866e+06  
+mean     3.046553e+04          1.123650e+02  1.638996e+02  
+std      1.644586e+04          5.407358e+01  7.998445e+01  
+min      2.630000e+03          1.000000e+00  1.000000e+01  
+25%      2.528000e+04          2.900000e+01  9.900000e+01  
+50%      3.182700e+04          1.510000e+02  1.660000e+02  
+75%      3.946000e+04          1.520000e+02  2.320000e+02  
+max      5.401650e+05          1.630000e+02  2.990000e+02  
+INFO:__main__:Train dataset - Gender distribution:
+Gender
+Male      6228134
+Female    5276664
+Name: count, dtype: int64
+INFO:__main__:Train dataset - Vehicle_Age distribution:
+Vehicle_Age
+1-2 Year     5982678
+< 1 Year     5044145
+> 2 Years     477975
+Name: count, dtype: int64
+INFO:__main__:Train dataset - Vehicle_Damage distribution:
+Vehicle_Damage
+Yes    5783229
+No     5721569
+Name: count, dtype: int64
+INFO:__main__:Test dataset - Gender distribution:
+Gender
+Male      4151402
+Female    3518464
+Name: count, dtype: int64
+INFO:__main__:Test dataset - Vehicle_Age distribution:
+Vehicle_Age
+1-2 Year     3989276
+< 1 Year     3361255
+> 2 Years     319335
+Name: count, dtype: int64
+INFO:__main__:Test dataset - Vehicle_Damage distribution:
+Vehicle_Damage
+Yes    3854463
+No     3815403
+Name: count, dtype: int64
+INFO:__main__:Duplicate rows in train dataset: 0
+INFO:__main__:Duplicate rows in test dataset: 0
+INFO:__main__:Outliers in train dataset: 39668
+INFO:__main__:Outliers in test dataset: 26421
+INFO:__main__:Correlation matrix:
+                           Age  Driving_License  Region_Code  \
+Age                   1.000000        -0.078519     0.037041   
+Driving_License      -0.078519         1.000000    -0.001329   
+Region_Code           0.037041        -0.001329     1.000000   
+Previously_Insured   -0.276248         0.013733    -0.022367   
+Annual_Premium        0.056327        -0.007300    -0.001741   
+Policy_Sales_Channel -0.591443         0.042941    -0.037606   
+Vintage              -0.013293        -0.000697    -0.005537   
+Response              0.122134         0.009197     0.012816   
+
+                      Previously_Insured  Annual_Premium  \
+Age                            -0.276248        0.056327   
+Driving_License                 0.013733       -0.007300   
+Region_Code                    -0.022367       -0.001741   
+Previously_Insured              1.000000        0.007665   
+Annual_Premium                  0.007665        1.000000   
+Policy_Sales_Channel            0.236838       -0.128559   
+Vintage                         0.019431        0.003284   
+Response                       -0.345930        0.032261   
+
+                      Policy_Sales_Channel   Vintage  Response  
+Age                              -0.591443 -0.013293  0.122134  
+Driving_License                   0.042941 -0.000697  0.009197  
+Region_Code                      -0.037606 -0.005537  0.012816  
+Previously_Insured                0.236838  0.019431 -0.345930  
+Annual_Premium                   -0.128559  0.003284  0.032261  
+Policy_Sales_Channel              1.000000  0.008999 -0.152733  
+Vintage                           0.008999  1.000000 -0.015177  
+Response                         -0.152733 -0.015177  1.000000  
+INFO:__main__:Correlation heatmap saved as correlation_heatmap.png
+INFO:__main__:Target variable distribution:
+Response
+0    10089739
+1     1415059
+Name: count, dtype: int64
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:__main__:Target variable distribution plot saved as target_distribution.png
+INFO:__main__:Target variable distribution:
+Response
+0    10089739
+1     1415059
+Name: count, dtype: int64
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:__main__:Target variable distribution plot saved as target_distribution.png
+INFO:__main__:Relationship between features and target variable:
+                Age  Driving_License  Region_Code  Previously_Insured  \
+Response                                                                
+0         37.697783         0.997869    26.356335            0.527594   
+1         43.273353         0.999113    26.863299            0.002403   
+
+          Annual_Premium  Policy_Sales_Channel     Vintage  
+Response                                                    
+0           30262.572495            115.516168  164.352317  
+1           31878.851295             90.387759  160.656517  
+INFO:__main__:Number of rows with outliers: 39565
+INFO:__main__:Outliers data:
+          Gender  Age  Driving_License  Region_Code  Previously_Insured  \
+id                                                                        
+198       Female   39                1         45.0                   0   
+471         Male   51                0         15.0                   1   
+605       Female   68                0          3.0                   0   
+640         Male   71                0         28.0                   1   
+895         Male   31                1         28.0                   0   
+...          ...  ...              ...          ...                 ...   
+11503698  Female   39                1         28.0                   0   
+11503719  Female   47                1         28.0                   1   
+11503797    Male   41                1         28.0                   1   
+11503874  Female   24                1         29.0                   1   
+11504025    Male   62                0         28.0                   0   
+
+         Vehicle_Age Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+id                                                                          
+198         1-2 Year            Yes        289606.0                 108.0   
+471         1-2 Year             No         29130.0                  26.0   
+605         1-2 Year             No         33002.0                 155.0   
+640         1-2 Year             No         32732.0                  26.0   
+895         < 1 Year            Yes        102974.0                 124.0   
+...              ...            ...             ...                   ...   
+11503698    1-2 Year             No         79987.0                  26.0   
+11503719    1-2 Year             No         82928.0                  26.0   
+11503797    1-2 Year             No         81682.0                 124.0   
+11503874    < 1 Year             No        366891.0                 152.0   
+11504025    1-2 Year            Yes          2630.0                  26.0   
+
+          Vintage  Response  
+id                           
+198           241         1  
+471           221         0  
+605           107         0  
+640           257         0  
+895           171         0  
+...           ...       ...  
+11503698      223         0  
+11503719      158         0  
+11503797       60         0  
+11503874      204         0  
+11504025      257         0  
+
+[39565 rows x 11 columns]
+INFO:__main__:Box plot of Age saved as boxplot_Age.png
+INFO:__main__:Box plot of Driving_License saved as boxplot_Driving_License.png
+INFO:__main__:Box plot of Region_Code saved as boxplot_Region_Code.png
+INFO:__main__:Box plot of Previously_Insured saved as boxplot_Previously_Insured.png
+INFO:__main__:Box plot of Annual_Premium saved as boxplot_Annual_Premium.png
+INFO:__main__:Box plot of Policy_Sales_Channel saved as boxplot_Policy_Sales_Channel.png
+INFO:__main__:Box plot of Vintage saved as boxplot_Vintage.png
+INFO:__main__:Box plot of Response saved as boxplot_Response.png
+INFO:__main__:Summary statistics of outliers:
+                Age  Driving_License   Region_Code  Previously_Insured  \
+count  39565.000000     39565.000000  39565.000000        39565.000000   
+mean      55.837129         0.424820     25.613244            0.379603   
+std       17.168819         0.494322     11.022564            0.485294   
+min       20.000000         0.000000      0.000000            0.000000   
+25%       45.000000         0.000000     24.000000            0.000000   
+50%       60.000000         0.000000     28.000000            0.000000   
+75%       69.000000         1.000000     28.000000            1.000000   
+max       85.000000         1.000000     52.000000            1.000000   
+
+       Annual_Premium  Policy_Sales_Channel       Vintage      Response  
+count    39565.000000          39565.000000  39565.000000  39565.000000  
+mean     65200.142171             73.873550    163.631492      0.094073  
+std      63478.501946             55.217438     79.941667      0.291934  
+min       2630.000000              1.000000     10.000000      0.000000  
+25%      32704.000000             26.000000     98.000000      0.000000  
+50%      51809.000000             26.000000    164.000000      0.000000  
+75%      83826.000000            124.000000    234.000000      0.000000  
+max     540165.000000            163.000000    299.000000      1.000000  

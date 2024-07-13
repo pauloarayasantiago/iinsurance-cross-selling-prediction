@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/406c441a3dfd4ce483e095b2896aaabd/artifacts
+end_time: 1720852820114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 406c441a3dfd4ce483e095b2896aaabd
+run_name: intrigued-shad-766
+run_uuid: 406c441a3dfd4ce483e095b2896aaabd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720852697187
+status: 4
+tags: []
+user_id: paulo

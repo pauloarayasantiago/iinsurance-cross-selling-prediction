@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/paulo/OneDrive/Documents/Binary-Classification-of-Insurance-Cross-Selling/mlruns/0/660a85b4972543ef883273b130222265/artifacts
+end_time: 1720851602948
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 660a85b4972543ef883273b130222265
+run_name: righteous-wolf-278
+run_uuid: 660a85b4972543ef883273b130222265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720851601601
+status: 4
+tags: []
+user_id: paulo

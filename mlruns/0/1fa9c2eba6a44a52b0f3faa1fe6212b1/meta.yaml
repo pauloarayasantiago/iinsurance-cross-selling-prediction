@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/paulo/OneDrive/Documents/Binary-Classification-of-Insurance-Cross-Selling/mlruns/0/1fa9c2eba6a44a52b0f3faa1fe6212b1/artifacts
+end_time: 1720850454121
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1fa9c2eba6a44a52b0f3faa1fe6212b1
+run_name: kindly-pig-90
+run_uuid: 1fa9c2eba6a44a52b0f3faa1fe6212b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720850454071
+status: 4
+tags: []
+user_id: paulo
