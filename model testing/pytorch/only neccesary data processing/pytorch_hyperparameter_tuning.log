@@ -1,0 +1,7 @@
+2024-07-11 00:54:29,078 - INFO - Using device: cuda
+2024-07-11 00:54:29,078 - INFO - Loading datasets...
+2024-07-11 00:55:22,858 - INFO - Datasets loaded successfully.
+2024-07-11 00:55:22,861 - INFO - Train dataset shape: (11504798, 15)
+2024-07-11 00:55:22,861 - INFO - Test dataset shape: (7669866, 14)
+2024-07-11 00:55:22,861 - INFO - Sampling 40% of the training data...
+2024-07-11 00:55:25,622 - INFO - Train sample shape: (4601919, 15)

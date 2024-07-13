@@ -1,0 +1,7 @@
+2024-07-12 12:58:06,425 - INFO - Using device: cuda
+2024-07-12 12:58:06,426 - INFO - Loading datasets...
+2024-07-12 13:01:03,994 - INFO - Datasets loaded successfully.
+2024-07-12 13:01:03,994 - INFO - Train dataset shape: (11504798, 15)
+2024-07-12 13:01:03,994 - INFO - Test dataset shape: (7669866, 14)
+2024-07-12 19:25:26,019 - INFO - Best parameters from initial search: {'hidden_dim': 119, 'optimizer': 'SGD', 'lr': 0.012298487011468845}
+2024-07-12 19:25:26,115 - INFO - Best validation loss from initial search: 0.2636828551073202

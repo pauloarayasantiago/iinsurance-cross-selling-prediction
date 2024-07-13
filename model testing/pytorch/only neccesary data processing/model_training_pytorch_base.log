@@ -1,0 +1,19 @@
+2024-07-10 23:54:50,787 - INFO - Using device: cuda
+2024-07-10 23:54:50,788 - INFO - Loading datasets...
+2024-07-10 23:55:05,214 - INFO - Datasets loaded successfully.
+2024-07-10 23:55:05,214 - INFO - Train dataset shape: (11504798, 11)
+2024-07-10 23:55:05,214 - INFO - Test dataset shape: (7669866, 10)
+2024-07-10 23:55:05,214 - INFO - Sampling 40% of the training data...
+2024-07-10 23:55:07,607 - INFO - Train sample shape: (4601919, 11)
+2024-07-10 23:55:07,607 - INFO - Test sample shape: (7669866, 10)
+2024-07-10 23:55:12,650 - INFO - Missing values handled.
+2024-07-10 23:55:15,936 - INFO - Categorical variables encoded and aligned.
+2024-07-10 23:55:21,949 - INFO - Features standardized.
+2024-07-10 23:55:22,256 - INFO - Data converted to PyTorch tensors and DataLoader created.
+2024-07-10 23:55:22,259 - INFO - Model defined.
+2024-07-10 23:55:23,429 - INFO - Loss function and optimizer defined.
+2024-07-10 23:58:10,991 - INFO - Epoch [1/10], Loss: 0.0042, Training ROC AUC: 0.8551, Validation Loss: 0.2651, Validation ROC AUC: 0.8576
+2024-07-11 00:00:57,411 - INFO - Epoch [2/10], Loss: 0.0041, Training ROC AUC: 0.8574, Validation Loss: 0.2650, Validation ROC AUC: 0.8582
+2024-07-11 00:04:01,058 - INFO - Epoch [3/10], Loss: 0.0041, Training ROC AUC: 0.8582, Validation Loss: 0.2647, Validation ROC AUC: 0.8588
+2024-07-11 00:07:11,315 - INFO - Epoch [4/10], Loss: 0.0041, Training ROC AUC: 0.8588, Validation Loss: 0.2644, Validation ROC AUC: 0.8592
+2024-07-11 00:09:19,758 - INFO - Epoch [5/10], Loss: 0.0041, Training ROC AUC: 0.8591, Validation Loss: 0.2640, Validation ROC AUC: 0.8597

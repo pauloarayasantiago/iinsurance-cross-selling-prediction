@@ -1,0 +1,13 @@
+2024-07-11 11:01:48,446 - INFO - Loading datasets...
+2024-07-11 11:01:57,831 - INFO - Datasets loaded successfully.
+2024-07-11 11:01:57,831 - INFO - Train dataset shape: (11504798, 11)
+2024-07-11 11:01:57,831 - INFO - Test dataset shape: (7669866, 10)
+2024-07-11 11:01:57,831 - INFO - Sampling 40% of the training data...
+2024-07-11 11:01:59,064 - INFO - Train sample shape: (4601919, 11)
+2024-07-11 11:02:01,139 - INFO - Starting superficial random search for hyperparameter tuning...
+2024-07-11 11:07:14,022 - INFO - Best parameters from superficial random search: {'alpha': 0.7469362333764941, 'colsample_bytree': 0.8699140407466235, 'gamma': 0.10895766749668412, 'lambda': 0.1136112855023077, 'max_depth': 8, 'min_child_weight': 5, 'subsample': 0.8714582264256323}
+2024-07-11 11:07:14,022 - INFO - Best ROC AUC score from superficial random search: 0.8756170769290996
+2024-07-11 11:07:14,028 - INFO - Random search results saved to xgb_superficial_random_search_results.csv
+2024-07-11 11:07:27,770 - INFO - Validation ROC AUC Score with best parameters: 0.8784590998713737
+2024-07-11 11:07:27,823 - INFO - Final model saved to final_xgb_model_superficial.json
+2024-07-11 11:07:28,179 - INFO - XGBoost feature importances plot saved.

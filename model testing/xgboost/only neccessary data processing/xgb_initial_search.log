@@ -1,0 +1,20 @@
+2024-07-12 02:05:57,096 - INFO - Loading datasets...
+2024-07-12 02:06:05,916 - INFO - Datasets loaded successfully.
+2024-07-12 02:06:05,916 - INFO - Train dataset shape: (11504798, 11)
+2024-07-12 02:06:05,916 - INFO - Test dataset shape: (7669866, 10)
+2024-07-12 02:06:05,916 - INFO - Using the entire training data...
+2024-07-12 02:42:03,244 - INFO - Best parameters from initial search: {'learning_rate': 0.1861330975896814, 'alpha': 1.2094893021733406, 'colsample_bytree': 0.4557735672850145, 'gamma': 0.05583950560484444, 'lambda': 0.07393496849585297, 'max_depth': 12, 'min_child_weight': 2, 'subsample': 0.9633360577469587}
+2024-07-12 02:42:03,245 - INFO - Best ROC AUC score from initial search: 0.8798342382290318
+2024-07-12 02:42:55,760 - INFO - Validation ROC AUC Score with best parameters: 0.8803116214754669
+2024-07-12 02:42:55,972 - INFO - Final model saved to final_xgb_model_initial.json
+2024-07-12 02:42:56,284 - INFO - XGBoost feature importances plot saved.
+2024-07-12 03:19:03,111 - INFO - Best parameters from intermediate search: {'learning_rate': 0.21825879235260975, 'alpha': 1.4235373213347011, 'colsample_bytree': 0.4679683415714328, 'gamma': 0.04509322984068392, 'lambda': 0.07873037104473732, 'max_depth': 11, 'min_child_weight': 2, 'subsample': 0.9835329496045356}
+2024-07-12 03:19:03,111 - INFO - Best ROC AUC score from intermediate search: 0.8797454959359143
+2024-07-12 03:19:53,651 - INFO - Validation ROC AUC Score with best parameters: 0.8801835362709819
+2024-07-12 03:19:53,803 - INFO - Final model saved to final_xgb_model_intermediate.json
+2024-07-12 03:19:54,054 - INFO - XGBoost feature importances plot saved.
+2024-07-12 03:56:10,410 - INFO - Best parameters from fine-tuned search: {'learning_rate': 0.20475336340666467, 'alpha': 1.5361323355303986, 'colsample_bytree': 0.4472021612771753, 'gamma': 0.04705004749005612, 'lambda': 0.07918155149432371, 'max_depth': 12, 'min_child_weight': 2, 'subsample': 0.9879075176758525}
+2024-07-12 03:56:10,410 - INFO - Best ROC AUC score from fine-tuned search: 0.8798430275039268
+2024-07-12 03:57:04,737 - INFO - Validation ROC AUC Score with best parameters: 0.8803956921081154
+2024-07-12 03:57:04,939 - INFO - Final model saved to final_xgb_model_fine_tuned.json
+2024-07-12 03:57:05,313 - INFO - XGBoost feature importances plot saved.

@@ -1,0 +1,49 @@
+2024-07-10 23:31:57,001 - INFO - Loading datasets...
+2024-07-10 23:32:08,216 - INFO - Datasets loaded successfully.
+2024-07-10 23:32:08,216 - INFO - Train dataset shape: (11504798, 11)
+2024-07-10 23:32:08,216 - INFO - Test dataset shape: (7669866, 10)
+2024-07-10 23:32:08,216 - INFO - Sampling 40% of the training data...
+2024-07-10 23:32:10,166 - INFO - Train sample shape: (4601919, 11)
+2024-07-10 23:32:10,167 - INFO - Test sample shape: (7669866, 10)
+2024-07-10 23:33:57,044 - INFO - Loading datasets...
+2024-07-10 23:34:08,611 - INFO - Datasets loaded successfully.
+2024-07-10 23:34:08,611 - INFO - Train dataset shape: (11504798, 11)
+2024-07-10 23:34:08,611 - INFO - Test dataset shape: (7669866, 10)
+2024-07-10 23:34:08,611 - INFO - Sampling 40% of the training data...
+2024-07-10 23:34:10,673 - INFO - Train sample shape: (4601919, 11)
+2024-07-10 23:34:10,673 - INFO - Test sample shape: (7669866, 10)
+2024-07-10 23:34:14,235 - INFO - Missing values handled.
+2024-07-10 23:34:18,523 - INFO - Categorical variables encoded.
+2024-07-10 23:34:51,692 - INFO - Processed data saved.
+2024-07-10 23:34:53,242 - INFO - Training XGBoost base model...
+2024-07-10 23:42:04,060 - INFO - Loading datasets...
+2024-07-10 23:42:17,774 - INFO - Datasets loaded successfully.
+2024-07-10 23:42:17,774 - INFO - Train dataset shape: (11504798, 11)
+2024-07-10 23:42:17,774 - INFO - Test dataset shape: (7669866, 10)
+2024-07-10 23:42:17,774 - INFO - Sampling 40% of the training data...
+2024-07-10 23:42:20,655 - INFO - Train sample shape: (4601919, 11)
+2024-07-10 23:42:20,655 - INFO - Test sample shape: (7669866, 10)
+2024-07-10 23:42:25,678 - INFO - Missing values handled.
+2024-07-10 23:42:30,753 - INFO - Categorical variables encoded.
+2024-07-10 23:43:21,124 - INFO - Processed data saved.
+2024-07-10 23:43:23,449 - INFO - Training XGBoost base model...
+2024-07-10 23:49:51,344 - INFO - Loading datasets...
+2024-07-10 23:50:04,291 - INFO - Datasets loaded successfully.
+2024-07-10 23:50:04,291 - INFO - Train dataset shape: (11504798, 11)
+2024-07-10 23:50:04,292 - INFO - Test dataset shape: (7669866, 10)
+2024-07-10 23:50:04,292 - INFO - Sampling 40% of the training data...
+2024-07-10 23:50:06,626 - INFO - Train sample shape: (4601919, 11)
+2024-07-10 23:50:06,627 - INFO - Test sample shape: (7669866, 10)
+2024-07-10 23:50:11,008 - INFO - Missing values handled.
+2024-07-10 23:50:15,899 - INFO - Categorical variables encoded.
+2024-07-10 23:50:50,169 - INFO - Processed data saved.
+2024-07-10 23:50:53,123 - INFO - Training XGBoost base model...
+2024-07-11 00:01:45,189 - INFO - Validation ROC AUC Score: 0.8792662033593708
+2024-07-11 00:01:45,189 - INFO - Validation Precision: 0.5702598652550529
+2024-07-11 00:01:45,189 - INFO - Validation Recall: 0.11502519347352258
+2024-07-11 00:01:45,189 - INFO - Validation F1 Score: 0.19143639714791344
+2024-07-11 00:01:45,190 - INFO - Validation Confusion Matrix: 
+[[797238   9823]
+ [100288  13035]]
+2024-07-11 00:02:06,921 - INFO - Final predictions saved to test_predictions_xgb_base.csv
+2024-07-11 00:02:07,223 - INFO - XGBoost feature importances plot saved.

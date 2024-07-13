@@ -1,0 +1,7 @@
+2024-07-11 00:11:25,641 - INFO - Loading datasets...
+2024-07-11 00:11:38,867 - INFO - Datasets loaded successfully.
+2024-07-11 00:11:38,867 - INFO - Train dataset shape: (11504798, 11)
+2024-07-11 00:11:38,867 - INFO - Test dataset shape: (7669866, 10)
+2024-07-11 00:11:46,098 - INFO - Missing values handled.
+2024-07-11 00:11:54,149 - INFO - Categorical variables encoded.
+2024-07-11 00:12:50,642 - INFO - Processed data saved as CSV.

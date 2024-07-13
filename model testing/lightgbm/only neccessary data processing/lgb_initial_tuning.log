@@ -1,0 +1,19 @@
+2024-07-12 00:59:24,936 - INFO - Loading datasets...
+2024-07-12 00:59:34,032 - INFO - Datasets loaded successfully.
+2024-07-12 00:59:34,032 - INFO - Train dataset shape: (11504798, 11)
+2024-07-12 00:59:34,032 - INFO - Test dataset shape: (7669866, 10)
+2024-07-12 01:18:24,030 - INFO - Best parameters from initial search: {'learning_rate': 0.23318311750377654, 'num_leaves': 35, 'max_depth': 12, 'min_data_in_leaf': 18, 'lambda_l1': 0.10922822154098472, 'lambda_l2': 0.2385388214838187, 'feature_fraction': 0.7685953918237244, 'bagging_fraction': 0.7408610823096882, 'bagging_freq': 4}
+2024-07-12 01:18:24,030 - INFO - Best ROC AUC score from initial search: 0.8782478627641334
+2024-07-12 01:19:03,460 - INFO - Validation ROC AUC Score with best parameters: 0.8784724665155559
+2024-07-12 01:19:03,464 - INFO - Final model saved to final_lgb_model_initial.txt
+2024-07-12 01:19:03,718 - INFO - LightGBM feature importances plot saved.
+2024-07-12 01:37:59,965 - INFO - Best parameters from intermediate search: {'learning_rate': 0.26751271080960026, 'num_leaves': 38, 'max_depth': 11, 'min_data_in_leaf': 17, 'lambda_l1': 0.12254260616677046, 'lambda_l2': 0.23058336894956008, 'feature_fraction': 0.9014526722135849, 'bagging_fraction': 0.8673448576231353, 'bagging_freq': 4}
+2024-07-12 01:37:59,965 - INFO - Best ROC AUC score from intermediate search: 0.87867603804991
+2024-07-12 01:38:39,186 - INFO - Validation ROC AUC Score with best parameters: 0.8788957365502591
+2024-07-12 01:38:39,190 - INFO - Final model saved to final_lgb_model_intermediate.txt
+2024-07-12 01:38:39,392 - INFO - LightGBM feature importances plot saved.
+2024-07-12 01:57:52,913 - INFO - Best parameters from fine-tuned search: {'learning_rate': 0.29368556085907255, 'num_leaves': 40, 'max_depth': 12, 'min_data_in_leaf': 16, 'lambda_l1': 0.12602838358035842, 'lambda_l2': 0.21177724452439387, 'feature_fraction': 0.8172076844792285, 'bagging_fraction': 0.9335787479900166, 'bagging_freq': 4}
+2024-07-12 01:57:52,913 - INFO - Best ROC AUC score from fine-tuned search: 0.8787298941037186
+2024-07-12 01:58:33,163 - INFO - Validation ROC AUC Score with best parameters: 0.8789671001455522
+2024-07-12 01:58:33,166 - INFO - Final model saved to final_lgb_model_fine_tuned.txt
+2024-07-12 01:58:33,372 - INFO - LightGBM feature importances plot saved.
