@@ -1,0 +1,135 @@
+2024-07-13 21:11:56,551 - __main__ - INFO - Setup and Imports complete.
+2024-07-13 21:11:56,561 - __main__ - INFO - Loading and preparing data...
+2024-07-13 21:12:11,874 - __main__ - INFO - Memory usage after optimization is: 218.68 MB
+2024-07-13 21:12:11,875 - __main__ - INFO - Decreased by 79.17%
+2024-07-13 21:12:12,313 - __main__ - INFO - Memory usage after optimization is: 138.98 MB
+2024-07-13 21:12:12,314 - __main__ - INFO - Decreased by 78.41%
+2024-07-13 21:12:12,802 - __main__ - INFO - Train dataset shape: (11465233, 11)
+2024-07-13 21:12:12,803 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-13 21:12:17,823 - __main__ - INFO - Training set shape: (9172186, 10)
+2024-07-13 21:12:17,824 - __main__ - INFO - Validation set shape: (2293047, 10)
+2024-07-13 21:12:17,832 - __main__ - INFO - Defining custom transformers...
+2024-07-13 21:12:17,834 - __main__ - INFO - Custom transformers defined.
+2024-07-13 21:12:17,840 - __main__ - INFO - Defining preprocessing pipeline...
+2024-07-13 21:12:20,237 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:20,238 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:21,815 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:21,816 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:23,420 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:23,420 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:25,175 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:25,176 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:26,758 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:26,758 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:28,403 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:28,403 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:30,795 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:30,796 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:32,321 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:32,322 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:33,865 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:33,865 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:35,941 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:35,942 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:37,457 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:37,458 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:38,979 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:38,980 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:43,932 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:43,933 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:44,328 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:44,329 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:44,704 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:12:44,705 - __main__ - ERROR -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:12:45,335 - __main__ - INFO - Training set after preprocessing: (9172186, 22)
+2024-07-13 21:12:45,336 - __main__ - INFO - Validation set after preprocessing: (2293047, 22)
+2024-07-13 21:12:45,342 - __main__ - INFO - Saving transformed data...
+2024-07-13 21:16:36,954 - __main__ - INFO - Transformed datasets saved to CSV files with reduced memory usage
+2024-07-13 21:17:12,349 - __main__ - INFO - Running Bayesian search for hyperparameter tuning...
+2024-07-13 21:17:12,356 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\sklearn\metrics\_scorer.py:548: FutureWarning: The `needs_threshold` and `needs_proba` parameter are deprecated in version 1.4 and will be removed in 1.6. You can either let `response_method` be `None` or set it to `predict` to preserve the same behaviour.
+2024-07-13 21:17:12,357 - __main__ - ERROR -   warnings.warn(
+2024-07-13 21:17:12,534 - __main__ - INFO - Fitting 3 folds for each of 1 candidates, totalling 3 fits
+2024-07-13 21:18:08,886 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\sklearn\preprocessing\_label.py:97: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+2024-07-13 21:18:08,886 - __main__ - ERROR -   y = column_or_1d(y, warn=True)
+2024-07-13 21:18:09,073 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\sklearn\preprocessing\_label.py:132: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+2024-07-13 21:18:09,074 - __main__ - ERROR -   y = column_or_1d(y, dtype=self.classes_.dtype, warn=True)
+2024-07-13 21:18:09,585 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:18:09,585 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:18:09,585 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:18:09,586 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:18:09,586 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:18:09,587 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:18:10,810 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:18:10,811 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:18:10,812 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:18:10,812 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:18:10,813 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:18:10,813 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:18:10,818 - __main__ - INFO - [LightGBM] [Info] Number of positive: 1129070, number of negative: 8043116
+2024-07-13 21:18:11,150 - __main__ - INFO - [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.312544 seconds.
+2024-07-13 21:18:11,151 - __main__ - INFO - You can set `force_col_wise=true` to remove the overhead.
+2024-07-13 21:18:11,159 - __main__ - INFO - [LightGBM] [Info] Total Bins 3596
+2024-07-13 21:18:11,160 - __main__ - INFO - [LightGBM] [Info] Number of data points in the train set: 9172186, number of used features: 21
+2024-07-13 21:18:11,234 - __main__ - INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.123097 -> initscore=-1.963422
+2024-07-13 21:18:11,239 - __main__ - INFO - [LightGBM] [Info] Start training from score -1.963422
+2024-07-13 21:18:39,742 - __main__ - INFO - Best AUC: 0.8761845205029948
+2024-07-13 21:18:39,743 - __main__ - INFO - Best parameters: OrderedDict({'bagging_fraction': 0.6820207917706628, 'bagging_freq': 5, 'feature_fraction': 0.7865735997695669, 'lambda_l1': 0.3157995934870487, 'lambda_l2': 0.6701479482689346, 'learning_rate': 0.0589883042739877, 'max_depth': 12, 'min_data_in_leaf': 40, 'num_leaves': 78})
+2024-07-13 21:18:39,895 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\sklearn\preprocessing\_label.py:97: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+2024-07-13 21:18:39,896 - __main__ - ERROR -   y = column_or_1d(y, warn=True)
+2024-07-13 21:18:40,043 - __main__ - ERROR - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\sklearn\preprocessing\_label.py:132: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+2024-07-13 21:18:40,043 - __main__ - ERROR -   y = column_or_1d(y, dtype=self.classes_.dtype, warn=True)
+2024-07-13 21:18:40,574 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:18:40,574 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:18:40,576 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:18:40,576 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:18:40,577 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:18:40,577 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:18:41,995 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:18:41,995 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:18:41,996 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:18:41,997 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:18:41,997 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:18:41,998 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:18:42,002 - __main__ - INFO - [LightGBM] [Info] Number of positive: 1129070, number of negative: 8043116
+2024-07-13 21:18:42,324 - __main__ - INFO - [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.300976 seconds.
+2024-07-13 21:18:42,324 - __main__ - INFO - You can set `force_col_wise=true` to remove the overhead.
+2024-07-13 21:18:42,331 - __main__ - INFO - [LightGBM] [Info] Total Bins 3596
+2024-07-13 21:18:42,332 - __main__ - INFO - [LightGBM] [Info] Number of data points in the train set: 9172186, number of used features: 21
+2024-07-13 21:18:42,410 - __main__ - INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.123097 -> initscore=-1.963422
+2024-07-13 21:18:42,415 - __main__ - INFO - [LightGBM] [Info] Start training from score -1.963422
+2024-07-13 21:19:10,976 - __main__ - INFO - Bayesian search complete.
+2024-07-13 21:19:10,985 - __main__ - INFO - Evaluating model...
+2024-07-13 21:19:11,339 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:19:11,339 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:19:11,340 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:19:11,341 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:19:11,341 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:19:11,342 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:19:21,870 - __main__ - INFO - [LightGBM] [Warning] min_data_in_leaf is set=40, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=40
+2024-07-13 21:19:21,871 - __main__ - INFO - [LightGBM] [Warning] feature_fraction is set=0.7865735997695669, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7865735997695669
+2024-07-13 21:19:21,872 - __main__ - INFO - [LightGBM] [Warning] lambda_l1 is set=0.3157995934870487, reg_alpha=0.0 will be ignored. Current value: lambda_l1=0.3157995934870487
+2024-07-13 21:19:21,872 - __main__ - INFO - [LightGBM] [Warning] lambda_l2 is set=0.6701479482689346, reg_lambda=0.0 will be ignored. Current value: lambda_l2=0.6701479482689346
+2024-07-13 21:19:21,872 - __main__ - INFO - [LightGBM] [Warning] bagging_fraction is set=0.6820207917706628, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6820207917706628
+2024-07-13 21:19:21,873 - __main__ - INFO - [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+2024-07-13 21:19:24,398 - __main__ - INFO - Training AUC with best parameters: 0.8767836006092549
+2024-07-13 21:19:24,400 - __main__ - INFO - Validation AUC with best parameters: 0.8770125222621871
+2024-07-13 21:19:24,400 - __main__ - INFO - No overfitting detected: Train AUC - 0.8767836006092549, Val AUC - 0.8770125222621871, Difference - 0.00022892165293220135
+2024-07-13 21:19:24,407 - __main__ - INFO - Model evaluation complete.
+2024-07-13 21:19:24,412 - __main__ - INFO - Training final model with callbacks...
+2024-07-13 21:19:26,031 - __main__ - INFO - [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.246705 seconds.
+2024-07-13 21:19:26,031 - __main__ - INFO - You can set `force_col_wise=true` to remove the overhead.
+2024-07-13 21:19:26,042 - __main__ - INFO - [LightGBM] [Info] Total Bins 3596
+2024-07-13 21:19:26,043 - __main__ - INFO - [LightGBM] [Info] Number of data points in the train set: 9172186, number of used features: 21
+2024-07-13 21:19:26,466 - __main__ - INFO - [LightGBM] [Info] Start training from score 0.123097
+2024-07-13 21:19:26,754 - __main__ - INFO - Training until validation scores don't improve for 20 rounds
+2024-07-13 21:20:11,415 - __main__ - INFO - Did not meet early stopping. Best iteration is:
+2024-07-13 21:20:11,416 - __main__ - INFO - [200]	training's l2: 0.0827554	valid_1's l2: 0.0827885
+2024-07-13 21:20:11,416 - __main__ - INFO - Evaluated only: l2
+2024-07-13 21:20:11,492 - __main__ - INFO - Saving model and metrics...
+2024-07-13 21:20:31,731 - __main__ - INFO - Final Train AUC: 0.8779193113068133
+2024-07-13 21:20:31,731 - __main__ - INFO - Final Validation AUC: 0.8778815426692074
+2024-07-13 21:20:31,734 - __main__ - INFO - Feature importance saved as feature_importance.csv
+2024-07-13 21:20:31,970 - __main__ - INFO - Feature importance plot saved as feature_importance.png
+2024-07-13 21:20:32,121 - __main__ - INFO - Model saved as lightgbm_model_best.pkl
+2024-07-13 21:20:32,125 - __main__ - INFO - Model metrics saved as model_metrics.csv
+2024-07-13 21:20:32,125 - __main__ - INFO - Training and evaluation process completed successfully.

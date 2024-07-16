@@ -1,0 +1,2 @@
+bagging_fraction,bagging_freq,feature_fraction,lambda_l1,lambda_l2,learning_rate,max_depth,min_data_in_leaf,num_leaves
+0.6820207917706628,5,0.7865735997695669,0.3157995934870487,0.6701479482689346,0.0589883042739877,12,40,78

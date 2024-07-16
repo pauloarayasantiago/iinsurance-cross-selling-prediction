@@ -1,0 +1,17 @@
+2024-07-13 19:28:07,982 - __main__ - INFO - Setup and Imports complete.
+2024-07-13 19:28:07,996 - __main__ - INFO - Loading and preparing data...
+2024-07-13 19:28:24,003 - __main__ - INFO - Train dataset shape: (11465233, 11)
+2024-07-13 19:28:24,004 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-13 19:28:28,544 - __main__ - INFO - Training set shape: (9172186, 10)
+2024-07-13 19:28:28,545 - __main__ - INFO - Validation set shape: (2293047, 10)
+2024-07-13 19:28:28,554 - __main__ - INFO - Defining custom transformers...
+2024-07-13 19:28:28,555 - __main__ - INFO - Custom transformers defined.
+2024-07-13 19:28:28,562 - __main__ - INFO - Defining preprocessing pipeline...
+2024-07-13 19:28:55,089 - __main__ - INFO - Training set after preprocessing: (9172186, 22)
+2024-07-13 19:28:55,089 - __main__ - INFO - Validation set after preprocessing: (2293047, 22)
+2024-07-13 19:28:55,097 - __main__ - INFO - Handling imbalanced data using SMOTE and verifying memory reduction...
+2024-07-13 19:41:00,031 - __main__ - INFO - Training data resampled using SMOTE. New shape: (16086232, 22)
+2024-07-13 19:41:08,828 - __main__ - INFO - Training data shape after memory reduction: (16086232, 22)
+2024-07-13 19:41:08,829 - __main__ - INFO - Validation data shape after memory reduction: (2293047, 22)
+2024-07-13 19:44:29,159 - __main__ - INFO - Transformed datasets saved to CSV files with reduced memory usage
+2024-07-13 19:44:29,167 - __main__ - INFO - Running randomized search for hyperparameter tuning...

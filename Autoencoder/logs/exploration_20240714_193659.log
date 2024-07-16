@@ -1,0 +1,110 @@
+2024-07-14 19:36:59,775 - __main__ - INFO - Setup and Imports complete.
+2024-07-14 19:37:17,466 - __main__ - INFO - Datasets loaded successfully.
+2024-07-14 19:37:17,468 - __main__ - INFO - Train dataset shape: (11465233, 10)
+2024-07-14 19:37:17,469 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-14 19:37:17,477 - __main__ - INFO - Dataset Head:
+   gender       age  region_code  previously_insured  vehicle_age  \
+0       1 -1.158738         35.0                   0            0   
+1       1  0.312817         28.0                   0            2   
+2       0 -0.891183         14.0                   1            1   
+3       0 -0.222294          1.0                   0            0   
+4       0 -0.155405         15.0                   1            0   
+
+   vehicle_damage  annual_premium  policy_sales_channel   vintage  response  
+0               1        2.182685                 124.0  0.288840         0  
+1               1        1.793991                  26.0  1.551661         1  
+2               0        0.483608                 152.0  1.126553         0  
+3               1       -1.740113                 156.0 -1.099013         0  
+4               0        0.101067                 152.0  1.626680         0  
+2024-07-14 19:37:17,486 - __main__ - INFO - Dataset Info:
+None
+2024-07-14 19:37:20,890 - __main__ - INFO - Dataset Description:
+             gender           age   region_code  previously_insured  \
+count  1.146523e+07  1.146523e+07  1.146523e+07        1.146523e+07   
+mean   5.409327e-01 -1.803875e-09  2.642147e+01        4.632843e-01   
+std    4.983217e-01  1.000000e+00  1.299778e+01        4.986502e-01   
+min    0.000000e+00 -1.225627e+00  0.000000e+00        0.000000e+00   
+25%    0.000000e+00 -9.580718e-01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00 -1.554052e-01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  7.141503e-01  3.500000e+01        1.000000e+00   
+max    1.000000e+00  2.988372e+00  5.200000e+01        1.000000e+00   
+
+        vehicle_age  vehicle_damage  annual_premium  policy_sales_channel  \
+count  1.146523e+07    1.146523e+07    1.146523e+07          1.146523e+07   
+mean   5.222163e-01    5.023184e-01    3.289200e-09          1.125585e+02   
+std    5.764531e-01    4.999946e-01    1.000000e+00          5.398394e+01   
+min    0.000000e+00    0.000000e+00   -1.740113e+00          1.000000e+00   
+25%    0.000000e+00    0.000000e+00   -3.187100e-01          2.900000e+01   
+50%    0.000000e+00    1.000000e+00    9.164824e-02          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    5.701379e-01          1.520000e+02   
+max    2.000000e+00    1.000000e+00    3.107263e+00          1.630000e+02   
+
+            vintage      response  
+count  1.146523e+07  1.146523e+07  
+mean  -1.588669e-09  1.230971e-01  
+std    1.000000e+00  3.285487e-01  
+min   -1.924222e+00  0.000000e+00  
+25%   -8.114396e-01  0.000000e+00  
+50%    2.627340e-02  0.000000e+00  
+75%    8.514832e-01  0.000000e+00  
+max    1.689196e+00  1.000000e+00  
+2024-07-14 19:37:21,072 - __main__ - INFO - Missing Values:
+gender                  0
+age                     0
+region_code             0
+previously_insured      0
+vehicle_age             0
+vehicle_damage          0
+annual_premium          0
+policy_sales_channel    0
+vintage                 0
+response                0
+dtype: int64
+2024-07-14 19:37:25,661 - __main__ - INFO - Correlation Matrix:
+                        gender       age  region_code  previously_insured  \
+gender                1.000000  0.157092    -0.000074           -0.087611   
+age                   0.157092  1.000000     0.037084           -0.276337   
+region_code          -0.000074  0.037084     1.000000           -0.022260   
+previously_insured   -0.087611 -0.276337    -0.022260            1.000000   
+vehicle_age          -0.117469 -0.538492    -0.023741            0.191670   
+vehicle_damage        0.096969  0.287935     0.026364           -0.836272   
+annual_premium        0.010863  0.055432    -0.000915            0.008541   
+policy_sales_channel -0.115575 -0.590963    -0.037758            0.236781   
+vintage              -0.009562 -0.013404    -0.005542            0.019455   
+response              0.055475  0.123421     0.012782           -0.346290   
+
+                      vehicle_age  vehicle_damage  annual_premium  \
+gender                  -0.117469        0.096969        0.010863   
+age                     -0.538492        0.287935        0.055432   
+region_code             -0.023741        0.026364       -0.000915   
+previously_insured       0.191670       -0.836272        0.008541   
+vehicle_age              1.000000       -0.190221        0.030687   
+vehicle_damage          -0.190221        1.000000        0.012290   
+annual_premium           0.030687        0.012290        1.000000   
+policy_sales_channel     0.395442       -0.240838       -0.130533   
+vintage                  0.013952       -0.019425        0.003598   
+response                -0.112568        0.360194        0.032479   
+
+                      policy_sales_channel   vintage  response  
+gender                           -0.115575 -0.009562  0.055475  
+age                              -0.590963 -0.013404  0.123421  
+region_code                      -0.037758 -0.005542  0.012782  
+previously_insured                0.236781  0.019455 -0.346290  
+vehicle_age                       0.395442  0.013952 -0.112568  
+vehicle_damage                   -0.240838 -0.019425  0.360194  
+annual_premium                   -0.130533  0.003598  0.032479  
+policy_sales_channel              1.000000  0.009040 -0.153330  
+vintage                           0.009040  1.000000 -0.015148  
+response                         -0.153330 -0.015148  1.000000  
+2024-07-14 19:37:27,947 - __main__ - INFO - Feature Skewness:
+response                2.294351
+age                     0.639029
+vehicle_age             0.561634
+previously_insured      0.147260
+vehicle_damage         -0.009274
+vintage                -0.108188
+region_code            -0.130700
+gender                 -0.164282
+annual_premium         -0.346541
+policy_sales_channel   -0.920312
+dtype: float64

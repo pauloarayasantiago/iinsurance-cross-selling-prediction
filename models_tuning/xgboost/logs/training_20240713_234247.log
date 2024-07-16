@@ -1,0 +1,30 @@
+2024-07-13 23:42:47,054 - __main__ - INFO - Setup and Imports complete.
+2024-07-13 23:42:52,898 - __main__ - ERROR - Error loading datasets: Index id invalid
+2024-07-13 23:44:49,250 - __main__ - ERROR - Error loading datasets: Index id invalid
+2024-07-13 23:45:29,095 - __main__ - ERROR - Error loading datasets: Index id invalid
+2024-07-13 23:45:47,280 - __main__ - ERROR - Error loading datasets: Index id invalid
+2024-07-13 23:46:46,750 - __main__ - ERROR - Error loading datasets: Index id invalid
+2024-07-13 23:49:12,059 - __main__ - INFO - Datasets loaded successfully.
+2024-07-13 23:49:12,062 - __main__ - INFO - Columns renamed.
+2024-07-13 23:49:12,062 - __main__ - INFO - Columns renamed.
+2024-07-13 23:49:16,604 - __main__ - INFO - Training set shape: (9172186, 9)
+2024-07-13 23:49:16,604 - __main__ - INFO - Validation set shape: (2293047, 9)
+2024-07-13 23:49:36,580 - __main__ - INFO - Datasets loaded successfully.
+2024-07-13 23:49:36,631 - __main__ - INFO - Columns renamed.
+2024-07-13 23:49:36,632 - __main__ - INFO - Columns renamed.
+2024-07-13 23:49:41,329 - __main__ - INFO - Training set shape: (9172186, 9)
+2024-07-13 23:49:41,329 - __main__ - INFO - Validation set shape: (2293047, 9)
+2024-07-13 23:49:41,338 - __main__ - INFO - Custom transformers defined.
+2024-07-13 23:49:41,346 - __main__ - INFO - Preprocessing pipeline defined.
+2024-07-13 23:50:29,166 - __main__ - INFO - Preprocessing pipeline defined.
+2024-07-13 23:50:35,535 - __main__ - INFO - Training set after preprocessing: (9172186, 21)
+2024-07-13 23:50:35,535 - __main__ - INFO - Validation set after preprocessing: (2293047, 21)
+2024-07-13 23:50:35,544 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-13 23:52:55,165 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-13 23:55:02,884 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-13 23:56:21,297 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 00:00:14,567 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 00:00:17,701 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 00:01:35,820 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 00:03:59,696 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 00:04:07,014 - __main__ - INFO - Preprocessing pipeline defined.

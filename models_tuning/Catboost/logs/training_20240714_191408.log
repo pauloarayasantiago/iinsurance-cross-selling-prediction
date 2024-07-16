@@ -1,0 +1,12 @@
+2024-07-14 19:14:08,038 - __main__ - INFO - Setup and Imports complete.
+2024-07-14 19:14:08,063 - __main__ - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'klib_full_trainset.csv'
+2024-07-14 19:15:35,180 - __main__ - INFO - Datasets loaded successfully.
+2024-07-14 19:15:35,198 - __main__ - INFO - Columns renamed.
+2024-07-14 19:15:35,200 - __main__ - INFO - Columns renamed.
+2024-07-14 19:15:43,726 - __main__ - INFO - Training set shape: (9172186, 9)
+2024-07-14 19:15:43,727 - __main__ - INFO - Validation set shape: (2293047, 9)
+2024-07-14 19:15:43,742 - __main__ - INFO - Custom transformers defined.
+2024-07-14 19:15:43,751 - __main__ - INFO - Preprocessing pipeline defined.
+2024-07-14 19:15:52,412 - __main__ - INFO - Training set after preprocessing: (9172186, 21)
+2024-07-14 19:15:52,413 - __main__ - INFO - Validation set after preprocessing: (2293047, 21)
+2024-07-14 19:15:52,423 - __main__ - INFO - Starting hyperparameter optimization with Optuna.

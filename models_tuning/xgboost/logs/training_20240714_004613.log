@@ -1,0 +1,15 @@
+2024-07-14 00:46:13,556 - __main__ - INFO - Setup and Imports complete.
+2024-07-14 00:46:25,148 - __main__ - INFO - Datasets loaded successfully.
+2024-07-14 00:46:25,151 - __main__ - INFO - Columns renamed.
+2024-07-14 00:46:25,152 - __main__ - INFO - Columns renamed.
+2024-07-14 00:46:30,173 - __main__ - INFO - Training set shape: (9172186, 9)
+2024-07-14 00:46:30,174 - __main__ - INFO - Validation set shape: (2293047, 9)
+2024-07-14 00:46:30,184 - __main__ - INFO - Custom transformers defined.
+2024-07-14 00:46:30,197 - __main__ - INFO - Preprocessing pipeline defined.
+2024-07-14 00:46:35,547 - __main__ - INFO - Training set after preprocessing: (9172186, 21)
+2024-07-14 00:46:35,548 - __main__ - INFO - Validation set after preprocessing: (2293047, 21)
+2024-07-14 00:46:35,558 - __main__ - INFO - Starting hyperparameter optimization with Optuna.
+2024-07-14 04:18:09,407 - __main__ - INFO - Best trial parameters: {'lambda': 0.0011124463405821116, 'alpha': 0.4697409790780375, 'colsample_bytree': 0.7, 'subsample': 0.7, 'learning_rate': 0.016, 'n_estimators': 923, 'max_depth': 17, 'min_child_weight': 221}
+2024-07-14 04:18:09,408 - __main__ - INFO - Best trial AUC: 0.8810665547964497
+2024-07-14 04:26:29,272 - __main__ - INFO - Final model AUC on validation set: 0.8809612985184044
+2024-07-14 04:39:50,818 - __main__ - INFO - Final model AUC on validation set: 0.8797911836736267

@@ -1,0 +1,20 @@
+2024-07-13 20:13:36,317 - __main__ - INFO - Setup and Imports complete.
+2024-07-13 20:14:06,912 - __main__ - INFO - Running Bayesian search for hyperparameter tuning...
+2024-07-13 20:25:50,079 - __main__ - INFO - Running Bayesian search for hyperparameter tuning...
+2024-07-13 20:35:39,864 - __main__ - INFO - Best AUC: 0.9486205614107845
+2024-07-13 20:35:39,865 - __main__ - INFO - Best parameters: OrderedDict({'bagging_fraction': 0.7599106883214346, 'bagging_freq': 4, 'feature_fraction': 0.7053240474255384, 'lambda_l1': 0.715713262107033, 'lambda_l2': 0.9038520725066866, 'learning_rate': 0.0801921805811886, 'max_depth': 12, 'min_data_in_leaf': 36, 'num_leaves': 81})
+2024-07-13 20:36:38,853 - __main__ - INFO - Bayesian search complete.
+2024-07-13 20:36:38,886 - __main__ - INFO - Evaluating model...
+2024-07-13 20:37:08,139 - __main__ - INFO - Training AUC with best parameters: 0.9493483645407668
+2024-07-13 20:37:08,139 - __main__ - INFO - Validation AUC with best parameters: 0.8627342805093273
+2024-07-13 20:37:08,139 - __main__ - WARNING - Overfitting detected: Train AUC - 0.9493483645407668, Val AUC - 0.8627342805093273, Difference - 0.08661408403143944
+2024-07-13 20:37:08,150 - __main__ - INFO - Model evaluation complete.
+2024-07-13 20:37:08,167 - __main__ - INFO - Training final model with callbacks...
+2024-07-13 20:38:36,862 - __main__ - INFO - Saving model and metrics...
+2024-07-13 20:39:11,702 - __main__ - INFO - Final Train AUC: 0.9521649122773773
+2024-07-13 20:39:11,703 - __main__ - INFO - Final Validation AUC: 0.8610571035742743
+2024-07-13 20:39:11,766 - __main__ - INFO - Feature importance saved as feature_importance.csv
+2024-07-13 20:39:12,916 - __main__ - INFO - Feature importance plot saved as feature_importance.png
+2024-07-13 20:39:13,087 - __main__ - INFO - Model saved as lightgbm_model_best.pkl
+2024-07-13 20:39:13,099 - __main__ - INFO - Model metrics saved as model_metrics.csv
+2024-07-13 20:39:13,099 - __main__ - INFO - Training and evaluation process completed successfully.

@@ -1,0 +1,11 @@
+2024-07-14 00:22:43,712 - __main__ - INFO - Setup and Imports complete.
+2024-07-14 00:22:54,283 - __main__ - INFO - Datasets loaded successfully.
+2024-07-14 00:22:54,284 - __main__ - INFO - Columns renamed.
+2024-07-14 00:22:54,285 - __main__ - INFO - Columns renamed.
+2024-07-14 00:22:58,829 - __main__ - INFO - Training set shape: (9172186, 9)
+2024-07-14 00:22:58,829 - __main__ - INFO - Validation set shape: (2293047, 9)
+2024-07-14 00:22:58,838 - __main__ - INFO - Custom transformers defined.
+2024-07-14 00:22:58,848 - __main__ - INFO - Preprocessing pipeline defined.
+2024-07-14 00:23:03,271 - __main__ - INFO - Training set after preprocessing: (9172186, 21)
+2024-07-14 00:23:03,271 - __main__ - INFO - Validation set after preprocessing: (2293047, 21)
+2024-07-14 00:23:03,280 - __main__ - INFO - Starting hyperparameter optimization with Optuna.

@@ -1,0 +1,46 @@
+2024-07-13 21:04:17,057 - __main__ - INFO - Setup and Imports complete.
+2024-07-13 21:04:17,069 - __main__ - INFO - Loading and preparing data...
+2024-07-13 21:04:31,968 - __main__ - INFO - Memory usage after optimization is: 218.68 MB
+2024-07-13 21:04:31,969 - __main__ - INFO - Decreased by 79.17%
+2024-07-13 21:04:32,390 - __main__ - INFO - Memory usage after optimization is: 138.98 MB
+2024-07-13 21:04:32,393 - __main__ - INFO - Decreased by 78.41%
+2024-07-13 21:04:32,890 - __main__ - INFO - Train dataset shape: (11465233, 11)
+2024-07-13 21:04:32,891 - __main__ - INFO - Test dataset shape: (7669866, 10)
+2024-07-13 21:04:37,579 - __main__ - INFO - Training set shape: (9172186, 10)
+2024-07-13 21:04:37,580 - __main__ - INFO - Validation set shape: (2293047, 10)
+2024-07-13 21:04:37,589 - __main__ - INFO - Defining custom transformers...
+2024-07-13 21:04:37,591 - __main__ - INFO - Custom transformers defined.
+2024-07-13 21:04:37,600 - __main__ - INFO - Defining preprocessing pipeline...
+2024-07-13 21:04:39,929 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:39,930 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:41,471 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:41,472 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:43,031 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:43,032 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:44,784 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:44,785 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:46,297 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:46,298 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:47,804 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:47,804 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:50,034 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:50,035 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:51,575 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:51,575 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:53,085 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:53,086 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:55,133 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:55,134 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:56,666 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:56,667 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:04:58,222 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:04:58,223 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:05:03,019 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:05:03,020 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:05:03,416 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:05:03,417 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:05:03,795 - __main__ - INFO - c:\Users\paulo\anaconda3\envs\pytorch_env\Lib\site-packages\category_encoders\ordinal.py:198: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2024-07-13 21:05:03,795 - __main__ - INFO -   X[column] = X[column].astype("object").fillna(np.nan).map(col_mapping)
+2024-07-13 21:05:04,403 - __main__ - INFO - Training set after preprocessing: (9172186, 22)
+2024-07-13 21:05:04,404 - __main__ - INFO - Validation set after preprocessing: (2293047, 22)
+2024-07-13 21:05:04,410 - __main__ - INFO - Saving transformed data...
