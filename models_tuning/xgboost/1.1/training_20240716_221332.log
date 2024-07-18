@@ -1,0 +1,7 @@
+2024-07-16 22:13:32,392 - __main__ - INFO - Setup and Imports complete.
+2024-07-16 22:13:32,415 - __main__ - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'klib_full_trainset.csv'
+2024-07-16 22:18:23,350 - __main__ - INFO - Datasets loaded successfully.
+2024-07-16 22:18:23,354 - __main__ - INFO - Columns renamed.
+2024-07-16 22:18:23,357 - __main__ - INFO - Columns renamed.
+2024-07-16 22:18:36,083 - __main__ - INFO - Training set shape: (9203838, 11)
+2024-07-16 22:18:36,085 - __main__ - INFO - Validation set shape: (2300960, 11)
