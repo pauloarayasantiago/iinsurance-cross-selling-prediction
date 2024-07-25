@@ -1,0 +1,630 @@
+2024-07-23 12:42:08,220 - INFO - Data loaded successfully.
+2024-07-23 12:42:08,220 - INFO - Original train dataset size: (11504798, 11)
+2024-07-23 12:42:08,221 - INFO - Original test dataset size: (7669866, 10)
+2024-07-23 12:42:08,222 - INFO - Train dataset columns:
+Gender                   object
+Age                       int64
+Driving_License           int64
+Region_Code             float64
+Previously_Insured        int64
+Vehicle_Age              object
+Vehicle_Damage           object
+Annual_Premium          float64
+Policy_Sales_Channel    float64
+Vintage                   int64
+Response                  int64
+dtype: object
+2024-07-23 12:42:08,223 - INFO - Test dataset columns:
+Gender                   object
+Age                       int64
+Driving_License           int64
+Region_Code             float64
+Previously_Insured        int64
+Vehicle_Age              object
+Vehicle_Damage           object
+Annual_Premium          float64
+Policy_Sales_Channel    float64
+Vintage                   int64
+dtype: object
+2024-07-23 12:42:09,033 - INFO - Train dataset missing values:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+Response                0
+dtype: int64
+2024-07-23 12:42:09,565 - INFO - Test dataset missing values:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+dtype: int64
+2024-07-23 12:42:13,273 - INFO - Train dataset descriptive statistics:
+          Gender           Age  Driving_License   Region_Code  \
+count   11504798  1.150480e+07     1.150480e+07  1.150480e+07   
+unique         2           NaN              NaN           NaN   
+top         Male           NaN              NaN           NaN   
+freq     6228134           NaN              NaN           NaN   
+mean         NaN  3.838356e+01     9.980220e-01  2.641869e+01   
+std          NaN  1.499346e+01     4.443120e-02  1.299159e+01   
+min          NaN  2.000000e+01     0.000000e+00  0.000000e+00   
+25%          NaN  2.400000e+01     1.000000e+00  1.500000e+01   
+50%          NaN  3.600000e+01     1.000000e+00  2.800000e+01   
+75%          NaN  4.900000e+01     1.000000e+00  3.500000e+01   
+max          NaN  8.500000e+01     1.000000e+00  5.200000e+01   
+
+        Previously_Insured Vehicle_Age Vehicle_Damage  Annual_Premium  \
+count         1.150480e+07    11504798       11504798    1.150480e+07   
+unique                 NaN           3              2             NaN   
+top                    NaN    1-2 Year            Yes             NaN   
+freq                   NaN     5982678        5783229             NaN   
+mean          4.629966e-01         NaN            NaN    3.046137e+04   
+std           4.986289e-01         NaN            NaN    1.645475e+04   
+min           0.000000e+00         NaN            NaN    2.630000e+03   
+25%           0.000000e+00         NaN            NaN    2.527700e+04   
+50%           0.000000e+00         NaN            NaN    3.182400e+04   
+75%           1.000000e+00         NaN            NaN    3.945100e+04   
+max           1.000000e+00         NaN            NaN    5.401650e+05   
+
+        Policy_Sales_Channel       Vintage      Response  
+count           1.150480e+07  1.150480e+07  1.150480e+07  
+unique                   NaN           NaN           NaN  
+top                      NaN           NaN           NaN  
+freq                     NaN           NaN           NaN  
+mean            1.124254e+02  1.638977e+02  1.229973e-01  
+std             5.403571e+01  7.997953e+01  3.284341e-01  
+min             1.000000e+00  1.000000e+01  0.000000e+00  
+25%             2.900000e+01  9.900000e+01  0.000000e+00  
+50%             1.510000e+02  1.660000e+02  0.000000e+00  
+75%             1.520000e+02  2.320000e+02  0.000000e+00  
+max             1.630000e+02  2.990000e+02  1.000000e+00  
+2024-07-23 12:42:15,650 - INFO - Test dataset descriptive statistics:
+         Gender           Age  Driving_License   Region_Code  \
+count   7669866  7.669866e+06     7.669866e+06  7.669866e+06   
+unique        2           NaN              NaN           NaN   
+top        Male           NaN              NaN           NaN   
+freq    4151402           NaN              NaN           NaN   
+mean        NaN  3.839137e+01     9.980208e-01  2.642661e+01   
+std         NaN  1.499951e+01     4.444387e-02  1.299433e+01   
+min         NaN  2.000000e+01     0.000000e+00  0.000000e+00   
+25%         NaN  2.400000e+01     1.000000e+00  1.500000e+01   
+50%         NaN  3.600000e+01     1.000000e+00  2.800000e+01   
+75%         NaN  4.900000e+01     1.000000e+00  3.500000e+01   
+max         NaN  8.500000e+01     1.000000e+00  5.200000e+01   
+
+        Previously_Insured Vehicle_Age Vehicle_Damage  Annual_Premium  \
+count         7.669866e+06     7669866        7669866    7.669866e+06   
+unique                 NaN           3              2             NaN   
+top                    NaN    1-2 Year            Yes             NaN   
+freq                   NaN     3989276        3854463             NaN   
+mean          4.630772e-01         NaN            NaN    3.046553e+04   
+std           4.986349e-01         NaN            NaN    1.644586e+04   
+min           0.000000e+00         NaN            NaN    2.630000e+03   
+25%           0.000000e+00         NaN            NaN    2.528000e+04   
+50%           0.000000e+00         NaN            NaN    3.182700e+04   
+75%           1.000000e+00         NaN            NaN    3.946000e+04   
+max           1.000000e+00         NaN            NaN    5.401650e+05   
+
+        Policy_Sales_Channel       Vintage  
+count           7.669866e+06  7.669866e+06  
+unique                   NaN           NaN  
+top                      NaN           NaN  
+freq                     NaN           NaN  
+mean            1.123650e+02  1.638996e+02  
+std             5.407358e+01  7.998445e+01  
+min             1.000000e+00  1.000000e+01  
+25%             2.900000e+01  9.900000e+01  
+50%             1.510000e+02  1.660000e+02  
+75%             1.520000e+02  2.320000e+02  
+max             1.630000e+02  2.990000e+02  
+2024-07-23 12:42:18,250 - INFO - Data preprocessed successfully.
+2024-07-23 12:42:18,251 - INFO - Preprocessed train dataset size: (11504798, 10)
+2024-07-23 12:42:18,251 - INFO - Preprocessed test dataset size: (7669866, 9)
+2024-07-23 12:42:18,252 - INFO - Preprocessed train dataset columns:
+Gender                    int64
+Age                       int64
+Region_Code             float64
+Previously_Insured        int64
+Vehicle_Age               int64
+Vehicle_Damage            int64
+Annual_Premium          float64
+Policy_Sales_Channel    float64
+Vintage                   int64
+Response                  int64
+dtype: object
+2024-07-23 12:42:18,253 - INFO - Preprocessed test dataset columns:
+Gender                    int64
+Age                       int64
+Region_Code             float64
+Previously_Insured        int64
+Vehicle_Age               int64
+Vehicle_Damage            int64
+Annual_Premium          float64
+Policy_Sales_Channel    float64
+Vintage                   int64
+dtype: object
+2024-07-23 12:42:18,381 - INFO - Preprocessed train dataset missing values:
+Gender                  0
+Age                     0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+Response                0
+dtype: int64
+2024-07-23 12:42:18,446 - INFO - Preprocessed test dataset missing values:
+Gender                  0
+Age                     0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+dtype: int64
+2024-07-23 12:42:20,300 - INFO - Preprocessed train dataset descriptive statistics:
+             Gender           Age   Region_Code  Previously_Insured  \
+count  1.150480e+07  1.150480e+07  1.150480e+07        1.150480e+07   
+mean   5.413510e-01  3.838356e+01  2.641869e+01        4.629966e-01   
+std    4.982872e-01  1.499346e+01  1.299159e+01        4.986289e-01   
+min    0.000000e+00  2.000000e+01  0.000000e+00        0.000000e+00   
+25%    0.000000e+00  2.400000e+01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00  3.600000e+01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  4.900000e+01  3.500000e+01        1.000000e+00   
+max    1.000000e+00  8.500000e+01  5.200000e+01        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  1.150480e+07    1.150480e+07    1.150480e+07          1.150480e+07   
+mean   6.031073e-01    5.026798e-01    3.046137e+04          1.124254e+02   
+std    5.678559e-01    4.999928e-01    1.645475e+04          5.403571e+01   
+min    0.000000e+00    0.000000e+00    2.630000e+03          1.000000e+00   
+25%    0.000000e+00    0.000000e+00    2.527700e+04          2.900000e+01   
+50%    1.000000e+00    1.000000e+00    3.182400e+04          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    3.945100e+04          1.520000e+02   
+max    2.000000e+00    1.000000e+00    5.401650e+05          1.630000e+02   
+
+            Vintage      Response  
+count  1.150480e+07  1.150480e+07  
+mean   1.638977e+02  1.229973e-01  
+std    7.997953e+01  3.284341e-01  
+min    1.000000e+01  0.000000e+00  
+25%    9.900000e+01  0.000000e+00  
+50%    1.660000e+02  0.000000e+00  
+75%    2.320000e+02  0.000000e+00  
+max    2.990000e+02  1.000000e+00  
+2024-07-23 12:42:21,436 - INFO - Preprocessed test dataset descriptive statistics:
+             Gender           Age   Region_Code  Previously_Insured  \
+count  7.669866e+06  7.669866e+06  7.669866e+06        7.669866e+06   
+mean   5.412613e-01  3.839137e+01  2.642661e+01        4.630772e-01   
+std    4.982946e-01  1.499951e+01  1.299433e+01        4.986349e-01   
+min    0.000000e+00  2.000000e+01  0.000000e+00        0.000000e+00   
+25%    0.000000e+00  2.400000e+01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00  3.600000e+01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  4.900000e+01  3.500000e+01        1.000000e+00   
+max    1.000000e+00  8.500000e+01  5.200000e+01        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  7.669866e+06    7.669866e+06    7.669866e+06          7.669866e+06   
+mean   6.033933e-01    5.025463e-01    3.046553e+04          1.123650e+02   
+std    5.679612e-01    4.999935e-01    1.644586e+04          5.407358e+01   
+min    0.000000e+00    0.000000e+00    2.630000e+03          1.000000e+00   
+25%    0.000000e+00    0.000000e+00    2.528000e+04          2.900000e+01   
+50%    1.000000e+00    1.000000e+00    3.182700e+04          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    3.946000e+04          1.520000e+02   
+max    2.000000e+00    1.000000e+00    5.401650e+05          1.630000e+02   
+
+            Vintage  
+count  7.669866e+06  
+mean   1.638996e+02  
+std    7.998445e+01  
+min    1.000000e+01  
+25%    9.900000e+01  
+50%    1.660000e+02  
+75%    2.320000e+02  
+max    2.990000e+02  
+2024-07-23 12:42:22,015 - INFO - Outliers removed successfully.
+2024-07-23 12:42:22,016 - INFO - Train dataset size after outlier removal: (9127525, 10)
+2024-07-23 12:42:22,017 - INFO - Train dataset columns after outlier removal:
+Gender                    int64
+Age                       int64
+Region_Code             float64
+Previously_Insured        int64
+Vehicle_Age               int64
+Vehicle_Damage            int64
+Annual_Premium          float64
+Policy_Sales_Channel    float64
+Vintage                   int64
+Response                  int64
+dtype: object
+2024-07-23 12:42:22,099 - INFO - Train dataset missing values after outlier removal:
+Gender                  0
+Age                     0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+Response                0
+dtype: int64
+2024-07-23 12:42:23,541 - INFO - Train dataset descriptive statistics after outlier removal:
+             Gender           Age   Region_Code  Previously_Insured  \
+count  9.127525e+06  9.127525e+06  9.127525e+06        9.127525e+06   
+mean   5.351836e-01  3.753553e+01  2.656740e+01        4.891942e-01   
+std    4.987606e-01  1.491480e+01  1.263657e+01        4.998832e-01   
+min    0.000000e+00  2.000000e+01  0.000000e+00        0.000000e+00   
+25%    0.000000e+00  2.400000e+01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00  3.400000e+01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  4.800000e+01  3.400000e+01        1.000000e+00   
+max    1.000000e+00  8.500000e+01  5.200000e+01        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  9.127525e+06    9.127525e+06    9.127525e+06          9.127525e+06   
+mean   5.639698e-01    4.814514e-01    3.578530e+04          1.126781e+02   
+std    5.684302e-01    4.996559e-01    8.732908e+03          5.346904e+01   
+min    0.000000e+00    0.000000e+00    4.021000e+03          1.000000e+00   
+25%    0.000000e+00    0.000000e+00    2.907600e+04          3.000000e+01   
+50%    1.000000e+00    0.000000e+00    3.418000e+04          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    4.078300e+04          1.520000e+02   
+max    2.000000e+00    1.000000e+00    6.071100e+04          1.630000e+02   
+
+            Vintage      Response  
+count  9.127525e+06  9.127525e+06  
+mean   1.639887e+02  1.209173e-01  
+std    7.994702e+01  3.260312e-01  
+min    1.000000e+01  0.000000e+00  
+25%    9.900000e+01  0.000000e+00  
+50%    1.660000e+02  0.000000e+00  
+75%    2.320000e+02  0.000000e+00  
+max    2.990000e+02  1.000000e+00  
+2024-07-23 12:42:53,880 - INFO - Feature engineering completed successfully.
+2024-07-23 12:42:53,881 - INFO - Train dataset size after feature engineering: (9127525, 14)
+2024-07-23 12:42:53,882 - INFO - Test dataset size after feature engineering: (7669866, 13)
+2024-07-23 12:42:53,883 - INFO - Train dataset columns after feature engineering:
+Gender                                 int64
+Age                                    int64
+Region_Code                          float64
+Previously_Insured                     int64
+Vehicle_Age                            int64
+Vehicle_Damage                         int64
+Annual_Premium                       float64
+Policy_Sales_Channel                 float64
+Vintage                                int64
+Response                               int64
+Previously_Insured_Annual_Premium      int64
+Previously_Insured_Vehicle_Age         int64
+Previously_Insured_Vehicle_Damage      int64
+Previously_Insured_Vintage             int64
+dtype: object
+2024-07-23 12:42:53,885 - INFO - Test dataset columns after feature engineering:
+Gender                                 int64
+Age                                    int64
+Region_Code                          float64
+Previously_Insured                     int64
+Vehicle_Age                            int64
+Vehicle_Damage                         int64
+Annual_Premium                       float64
+Policy_Sales_Channel                 float64
+Vintage                                int64
+Previously_Insured_Annual_Premium      int64
+Previously_Insured_Vehicle_Age         int64
+Previously_Insured_Vehicle_Damage      int64
+Previously_Insured_Vintage             int64
+dtype: object
+2024-07-23 12:42:54,017 - INFO - Train dataset missing values after feature engineering:
+Gender                               0
+Age                                  0
+Region_Code                          0
+Previously_Insured                   0
+Vehicle_Age                          0
+Vehicle_Damage                       0
+Annual_Premium                       0
+Policy_Sales_Channel                 0
+Vintage                              0
+Response                             0
+Previously_Insured_Annual_Premium    0
+Previously_Insured_Vehicle_Age       0
+Previously_Insured_Vehicle_Damage    0
+Previously_Insured_Vintage           0
+dtype: int64
+2024-07-23 12:42:54,103 - INFO - Test dataset missing values after feature engineering:
+Gender                               0
+Age                                  0
+Region_Code                          0
+Previously_Insured                   0
+Vehicle_Age                          0
+Vehicle_Damage                       0
+Annual_Premium                       0
+Policy_Sales_Channel                 0
+Vintage                              0
+Previously_Insured_Annual_Premium    0
+Previously_Insured_Vehicle_Age       0
+Previously_Insured_Vehicle_Damage    0
+Previously_Insured_Vintage           0
+dtype: int64
+2024-07-23 12:42:56,084 - INFO - Train dataset descriptive statistics after feature engineering:
+             Gender           Age   Region_Code  Previously_Insured  \
+count  9.127525e+06  9.127525e+06  9.127525e+06        9.127525e+06   
+mean   5.351836e-01  3.753553e+01  2.656740e+01        4.891942e-01   
+std    4.987606e-01  1.491480e+01  1.263657e+01        4.998832e-01   
+min    0.000000e+00  2.000000e+01  0.000000e+00        0.000000e+00   
+25%    0.000000e+00  2.400000e+01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00  3.400000e+01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  4.800000e+01  3.400000e+01        1.000000e+00   
+max    1.000000e+00  8.500000e+01  5.200000e+01        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  9.127525e+06    9.127525e+06    9.127525e+06          9.127525e+06   
+mean   5.639698e-01    4.814514e-01    3.578530e+04          1.126781e+02   
+std    5.684302e-01    4.996559e-01    8.732908e+03          5.346904e+01   
+min    0.000000e+00    0.000000e+00    4.021000e+03          1.000000e+00   
+25%    0.000000e+00    0.000000e+00    2.907600e+04          3.000000e+01   
+50%    1.000000e+00    0.000000e+00    3.418000e+04          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    4.078300e+04          1.520000e+02   
+max    2.000000e+00    1.000000e+00    6.071100e+04          1.630000e+02   
+
+            Vintage      Response  Previously_Insured_Annual_Premium  \
+count  9.127525e+06  9.127525e+06                       9.127525e+06   
+mean   1.639887e+02  1.209173e-01                       1.877025e+04   
+std    7.994702e+01  3.260312e-01                       1.591078e+04   
+min    1.000000e+01  0.000000e+00                       0.000000e+00   
+25%    9.900000e+01  0.000000e+00                       6.003000e+03   
+50%    1.660000e+02  0.000000e+00                       1.439900e+04   
+75%    2.320000e+02  0.000000e+00                       2.783900e+04   
+max    2.990000e+02  1.000000e+00                       7.969300e+04   
+
+       Previously_Insured_Vehicle_Age  Previously_Insured_Vehicle_Damage  \
+count                    9.127525e+06                       9.127525e+06   
+mean                     2.198832e+00                       6.226137e-01   
+std                      1.157661e+00                       6.656547e-01   
+min                      0.000000e+00                       0.000000e+00   
+25%                      1.000000e+00                       0.000000e+00   
+50%                      2.000000e+00                       1.000000e+00   
+75%                      3.000000e+00                       1.000000e+00   
+max                      5.000000e+00                       3.000000e+00   
+
+       Previously_Insured_Vintage  
+count                9.127525e+06  
+mean                 2.655386e+02  
+std                  1.615791e+02  
+min                  0.000000e+00  
+25%                  1.270000e+02  
+50%                  2.580000e+02  
+75%                  3.990000e+02  
+max                  5.790000e+02  
+2024-07-23 12:42:57,683 - INFO - Test dataset descriptive statistics after feature engineering:
+             Gender           Age   Region_Code  Previously_Insured  \
+count  7.669866e+06  7.669866e+06  7.669866e+06        7.669866e+06   
+mean   5.412613e-01  3.839137e+01  2.642661e+01        4.630772e-01   
+std    4.982946e-01  1.499951e+01  1.299433e+01        4.986349e-01   
+min    0.000000e+00  2.000000e+01  0.000000e+00        0.000000e+00   
+25%    0.000000e+00  2.400000e+01  1.500000e+01        0.000000e+00   
+50%    1.000000e+00  3.600000e+01  2.800000e+01        0.000000e+00   
+75%    1.000000e+00  4.900000e+01  3.500000e+01        1.000000e+00   
+max    1.000000e+00  8.500000e+01  5.200000e+01        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  7.669866e+06    7.669866e+06    7.669866e+06          7.669866e+06   
+mean   6.033933e-01    5.025463e-01    3.046553e+04          1.123650e+02   
+std    5.679612e-01    4.999935e-01    1.644586e+04          5.407358e+01   
+min    0.000000e+00    0.000000e+00    2.630000e+03          1.000000e+00   
+25%    0.000000e+00    0.000000e+00    2.528000e+04          2.900000e+01   
+50%    1.000000e+00    1.000000e+00    3.182700e+04          1.510000e+02   
+75%    1.000000e+00    1.000000e+00    3.946000e+04          1.520000e+02   
+max    2.000000e+00    1.000000e+00    5.401650e+05          1.630000e+02   
+
+            Vintage  Previously_Insured_Annual_Premium  \
+count  7.669866e+06                       7.669866e+06   
+mean   1.638996e+02                       1.659242e+04   
+std    7.998445e+01                       1.784412e+04   
+min    1.000000e+01                       0.000000e+00   
+25%    9.900000e+01                       1.881000e+03   
+50%    1.660000e+02                       1.068700e+04   
+75%    2.320000e+02                       2.577500e+04   
+max    2.990000e+02                       9.188600e+04   
+
+       Previously_Insured_Vehicle_Age  Previously_Insured_Vehicle_Damage  \
+count                    7.669866e+06                       7.669866e+06   
+mean                     1.612719e+00                       1.428701e+00   
+std                      1.051251e+00                       6.406130e-01   
+min                      0.000000e+00                       0.000000e+00   
+25%                      1.000000e+00                       1.000000e+00   
+50%                      2.000000e+00                       1.000000e+00   
+75%                      2.000000e+00                       2.000000e+00   
+max                      5.000000e+00                       3.000000e+00   
+
+       Previously_Insured_Vintage  
+count                7.669866e+06  
+mean                 2.630836e+02  
+std                  1.630874e+02  
+min                  0.000000e+00  
+25%                  1.210000e+02  
+50%                  2.500000e+02  
+75%                  4.040000e+02  
+max                  5.790000e+02  
+2024-07-23 12:42:58,528 - INFO - Data types optimized successfully.
+2024-07-23 12:42:58,528 - INFO - Train dataset size after optimizing data types: (9127525, 14)
+2024-07-23 12:42:58,528 - INFO - Test dataset size after optimizing data types: (7669866, 13)
+2024-07-23 12:42:58,530 - INFO - Train dataset columns after optimizing data types:
+Gender                                  int8
+Age                                     int8
+Region_Code                          float16
+Previously_Insured                      int8
+Vehicle_Age                             int8
+Vehicle_Damage                          int8
+Annual_Premium                       float16
+Policy_Sales_Channel                 float16
+Vintage                                int16
+Response                                int8
+Previously_Insured_Annual_Premium      int32
+Previously_Insured_Vehicle_Age          int8
+Previously_Insured_Vehicle_Damage       int8
+Previously_Insured_Vintage             int16
+dtype: object
+2024-07-23 12:42:58,531 - INFO - Test dataset columns after optimizing data types:
+Gender                                  int8
+Age                                     int8
+Region_Code                          float16
+Previously_Insured                      int8
+Vehicle_Age                             int8
+Vehicle_Damage                          int8
+Annual_Premium                       float32
+Policy_Sales_Channel                 float16
+Vintage                                int16
+Previously_Insured_Annual_Premium      int32
+Previously_Insured_Vehicle_Age          int8
+Previously_Insured_Vehicle_Damage       int8
+Previously_Insured_Vintage             int16
+dtype: object
+2024-07-23 12:42:58,668 - INFO - Train dataset missing values after optimizing data types:
+Gender                               0
+Age                                  0
+Region_Code                          0
+Previously_Insured                   0
+Vehicle_Age                          0
+Vehicle_Damage                       0
+Annual_Premium                       0
+Policy_Sales_Channel                 0
+Vintage                              0
+Response                             0
+Previously_Insured_Annual_Premium    0
+Previously_Insured_Vehicle_Age       0
+Previously_Insured_Vehicle_Damage    0
+Previously_Insured_Vintage           0
+dtype: int64
+2024-07-23 12:42:58,770 - INFO - Test dataset missing values after optimizing data types:
+Gender                               0
+Age                                  0
+Region_Code                          0
+Previously_Insured                   0
+Vehicle_Age                          0
+Vehicle_Damage                       0
+Annual_Premium                       0
+Policy_Sales_Channel                 0
+Vintage                              0
+Previously_Insured_Annual_Premium    0
+Previously_Insured_Vehicle_Age       0
+Previously_Insured_Vehicle_Damage    0
+Previously_Insured_Vintage           0
+dtype: int64
+2024-07-23 12:43:02,105 - INFO - Train dataset descriptive statistics after optimizing data types:
+             Gender           Age  Region_Code  Previously_Insured  \
+count  9.127525e+06  9.127525e+06    9127525.0        9.127525e+06   
+mean   5.351836e-01  3.753553e+01          NaN        4.891942e-01   
+std    4.987606e-01  1.491480e+01          0.0        4.998832e-01   
+min    0.000000e+00  2.000000e+01          0.0        0.000000e+00   
+25%    0.000000e+00  2.400000e+01         15.0        0.000000e+00   
+50%    1.000000e+00  3.400000e+01         28.0        0.000000e+00   
+75%    1.000000e+00  4.800000e+01         34.0        1.000000e+00   
+max    1.000000e+00  8.500000e+01         52.0        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  9.127525e+06    9.127525e+06       9127525.0             9127525.0   
+mean   5.639698e-01    4.814514e-01             NaN                   NaN   
+std    5.684302e-01    4.996559e-01             NaN                   0.0   
+min    0.000000e+00    0.000000e+00          4020.0                   1.0   
+25%    0.000000e+00    0.000000e+00         29072.0                  30.0   
+50%    1.000000e+00    0.000000e+00         34176.0                 151.0   
+75%    1.000000e+00    1.000000e+00         40768.0                 152.0   
+max    2.000000e+00    1.000000e+00         60704.0                 163.0   
+
+            Vintage      Response  Previously_Insured_Annual_Premium  \
+count  9.127525e+06  9.127525e+06                       9.127525e+06   
+mean   1.639887e+02  1.209173e-01                       1.877025e+04   
+std    7.994702e+01  3.260312e-01                       1.591078e+04   
+min    1.000000e+01  0.000000e+00                       0.000000e+00   
+25%    9.900000e+01  0.000000e+00                       6.003000e+03   
+50%    1.660000e+02  0.000000e+00                       1.439900e+04   
+75%    2.320000e+02  0.000000e+00                       2.783900e+04   
+max    2.990000e+02  1.000000e+00                       7.969300e+04   
+
+       Previously_Insured_Vehicle_Age  Previously_Insured_Vehicle_Damage  \
+count                    9.127525e+06                       9.127525e+06   
+mean                     2.198832e+00                       6.226137e-01   
+std                      1.157661e+00                       6.656547e-01   
+min                      0.000000e+00                       0.000000e+00   
+25%                      1.000000e+00                       0.000000e+00   
+50%                      2.000000e+00                       1.000000e+00   
+75%                      3.000000e+00                       1.000000e+00   
+max                      5.000000e+00                       3.000000e+00   
+
+       Previously_Insured_Vintage  
+count                9.127525e+06  
+mean                 2.655386e+02  
+std                  1.615791e+02  
+min                  0.000000e+00  
+25%                  1.270000e+02  
+50%                  2.580000e+02  
+75%                  3.990000e+02  
+max                  5.790000e+02  
+2024-07-23 12:43:04,364 - INFO - Test dataset descriptive statistics after optimizing data types:
+             Gender           Age  Region_Code  Previously_Insured  \
+count  7.669866e+06  7.669866e+06    7669866.0        7.669866e+06   
+mean   5.412613e-01  3.839137e+01          NaN        4.630772e-01   
+std    4.982946e-01  1.499951e+01          0.0        4.986349e-01   
+min    0.000000e+00  2.000000e+01          0.0        0.000000e+00   
+25%    0.000000e+00  2.400000e+01         15.0        0.000000e+00   
+50%    1.000000e+00  3.600000e+01         28.0        0.000000e+00   
+75%    1.000000e+00  4.900000e+01         35.0        1.000000e+00   
+max    1.000000e+00  8.500000e+01         52.0        1.000000e+00   
+
+        Vehicle_Age  Vehicle_Damage  Annual_Premium  Policy_Sales_Channel  \
+count  7.669866e+06    7.669866e+06    7.669866e+06             7669866.0   
+mean   6.033933e-01    5.025463e-01    3.046552e+04                   NaN   
+std    5.679612e-01    4.999935e-01    1.640548e+04                   0.0   
+min    0.000000e+00    0.000000e+00    2.630000e+03                   1.0   
+25%    0.000000e+00    0.000000e+00    2.528000e+04                  29.0   
+50%    1.000000e+00    1.000000e+00    3.182700e+04                 151.0   
+75%    1.000000e+00    1.000000e+00    3.946000e+04                 152.0   
+max    2.000000e+00    1.000000e+00    5.401650e+05                 163.0   
+
+            Vintage  Previously_Insured_Annual_Premium  \
+count  7.669866e+06                       7.669866e+06   
+mean   1.638996e+02                       1.659242e+04   
+std    7.998445e+01                       1.784412e+04   
+min    1.000000e+01                       0.000000e+00   
+25%    9.900000e+01                       1.881000e+03   
+50%    1.660000e+02                       1.068700e+04   
+75%    2.320000e+02                       2.577500e+04   
+max    2.990000e+02                       9.188600e+04   
+
+       Previously_Insured_Vehicle_Age  Previously_Insured_Vehicle_Damage  \
+count                    7.669866e+06                       7.669866e+06   
+mean                     1.612719e+00                       1.428701e+00   
+std                      1.051251e+00                       6.406130e-01   
+min                      0.000000e+00                       0.000000e+00   
+25%                      1.000000e+00                       1.000000e+00   
+50%                      2.000000e+00                       1.000000e+00   
+75%                      2.000000e+00                       2.000000e+00   
+max                      5.000000e+00                       3.000000e+00   
+
+       Previously_Insured_Vintage  
+count                7.669866e+06  
+mean                 2.630836e+02  
+std                  1.630874e+02  
+min                  0.000000e+00  
+25%                  1.210000e+02  
+50%                  2.500000e+02  
+75%                  4.040000e+02  
+max                  5.790000e+02  
+2024-07-23 12:43:06,524 - INFO - Features and target variable separated and scaled.
+2024-07-23 12:43:06,525 - INFO - Training features shape: (9127525, 13)
+2024-07-23 12:43:06,526 - INFO - Training target shape: (9127525,)
+2024-07-23 12:43:06,526 - INFO - Test features shape: (7669866, 13)

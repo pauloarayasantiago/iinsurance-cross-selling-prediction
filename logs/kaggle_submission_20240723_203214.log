@@ -1,0 +1,10 @@
+2024-07-23 20:32:30,485 - INFO - Memory usage of dataframe is 1053.30 MB
+2024-07-23 20:32:32,211 - INFO - Memory usage after optimization is: 274.30 MB
+2024-07-23 20:32:32,211 - INFO - Decreased by 74.0%
+2024-07-23 20:32:42,177 - INFO - Memory usage of dataframe is 643.68 MB
+2024-07-23 20:32:43,372 - INFO - Memory usage after optimization is: 175.55 MB
+2024-07-23 20:32:43,373 - INFO - Decreased by 72.7%
+2024-07-23 20:32:43,446 - INFO - Data loaded successfully.
+2024-07-23 20:32:43,805 - INFO - Data preprocessed successfully.
+2024-07-23 20:33:18,770 - INFO - Feature engineering completed successfully.
+2024-07-23 20:33:22,091 - INFO - Features and target variable separated and scaled.

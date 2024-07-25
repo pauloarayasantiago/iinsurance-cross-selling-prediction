@@ -1,0 +1,108 @@
+2024-07-24 16:03:14,266 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-24 16:03:15,854 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-24 16:03:15,855 - INFO - Decreased by 69.8%
+2024-07-24 16:03:16,194 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718}
+2024-07-24 16:03:16,194 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36}
+2024-07-24 16:03:16,195 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544}
+2024-07-24 16:03:16,195 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:03:16,196 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:03:16,196 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-24 16:03:16,197 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:03:16,197 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-24 16:03:16,197 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-24 16:03:16,198 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:03:16,198 - INFO - Column Response precision loss: 0.000000%
+2024-07-24 16:03:16,199 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-24 16:03:21,355 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-24 16:03:22,396 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-24 16:03:22,397 - INFO - Decreased by 68.2%
+2024-07-24 16:03:22,615 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613}
+2024-07-24 16:03:22,615 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523}
+2024-07-24 16:03:22,616 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501}
+2024-07-24 16:03:22,616 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:03:22,616 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:03:22,617 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-24 16:03:22,617 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:03:22,617 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-24 16:03:22,617 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-24 16:03:22,619 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:03:22,619 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-24 16:03:22,688 - INFO - Data loaded successfully.
+2024-07-24 16:03:24,492 - INFO - Data preprocessed successfully.
+2024-07-24 16:03:58,129 - INFO - Feature engineering completed successfully.
+2024-07-24 16:28:06,250 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-24 16:28:08,039 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-24 16:28:08,039 - INFO - Decreased by 69.8%
+2024-07-24 16:28:08,413 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718}
+2024-07-24 16:28:08,413 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36}
+2024-07-24 16:28:08,414 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544}
+2024-07-24 16:28:08,414 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:28:08,415 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:28:08,415 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-24 16:28:08,416 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:28:08,416 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-24 16:28:08,416 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-24 16:28:08,417 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:28:08,418 - INFO - Column Response precision loss: 0.000000%
+2024-07-24 16:28:08,418 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-24 16:28:14,271 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-24 16:28:15,418 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-24 16:28:15,419 - INFO - Decreased by 68.2%
+2024-07-24 16:28:15,656 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613}
+2024-07-24 16:28:15,656 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523}
+2024-07-24 16:28:15,656 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501}
+2024-07-24 16:28:15,657 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:28:15,658 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:28:15,658 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-24 16:28:15,658 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:28:15,659 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-24 16:28:15,659 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-24 16:28:15,659 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:28:15,661 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-24 16:28:16,589 - INFO - Data loaded successfully.
+2024-07-24 16:28:16,601 - INFO - Data preprocessing completed.
+2024-07-24 16:28:16,607 - INFO - Data preprocessing completed.
+2024-07-24 16:28:16,607 - INFO - Data preprocessed successfully.
+2024-07-24 16:28:16,711 - INFO - Feature engineering completed.
+2024-07-24 16:28:16,779 - INFO - Feature engineering completed.
+2024-07-24 16:28:16,832 - INFO - Feature engineering completed successfully.
+2024-07-24 16:28:16,852 - INFO - Numeric columns normalized.
+2024-07-24 16:28:17,169 - INFO - Starting CatBoost training...
+2024-07-24 16:28:17,174 - INFO - ---- CatBoost Fold 1 ----
+2024-07-24 16:28:34,053 - INFO - Validation AUC score for fold 1: 0.871757
+2024-07-24 16:28:34,149 - INFO - ---- CatBoost Fold 2 ----
+2024-07-24 16:28:56,618 - INFO - Validation AUC score for fold 2: 0.862946
+2024-07-24 16:28:56,729 - INFO - ---- CatBoost Fold 3 ----
+2024-07-24 16:29:19,990 - INFO - Validation AUC score for fold 3: 0.867621
+2024-07-24 16:29:20,115 - INFO - ---- CatBoost Fold 4 ----
+2024-07-24 16:29:38,207 - INFO - Validation AUC score for fold 4: 0.864686
+2024-07-24 16:29:38,320 - INFO - ---- CatBoost Fold 5 ----
+2024-07-24 16:29:58,008 - INFO - Validation AUC score for fold 5: 0.866143
+2024-07-24 16:29:58,115 - INFO - Overall ROC-AUC Score for CatBoost: 0.866631 ± 0.002995
+2024-07-24 16:29:58,118 - INFO - CatBoost models and predictions saved.
+2024-07-24 16:29:58,129 - INFO - Starting LightGBM training...
+2024-07-24 16:29:58,136 - INFO - ---- Fold 1 ----
+2024-07-24 16:29:59,872 - INFO - Validation AUC score for fold 1: 0.867926
+2024-07-24 16:30:00,033 - INFO - ---- Fold 2 ----
+2024-07-24 16:30:01,293 - INFO - Validation AUC score for fold 2: 0.858214
+2024-07-24 16:30:01,425 - INFO - ---- Fold 3 ----
+2024-07-24 16:30:03,254 - INFO - Validation AUC score for fold 3: 0.864428
+2024-07-24 16:30:03,417 - INFO - ---- Fold 4 ----
+2024-07-24 16:30:04,767 - INFO - Validation AUC score for fold 4: 0.862741
+2024-07-24 16:30:04,898 - INFO - ---- Fold 5 ----
+2024-07-24 16:30:06,111 - INFO - Validation AUC score for fold 5: 0.858663
+2024-07-24 16:30:06,241 - INFO - Overall ROC-AUC Score for LightGBM: 0.862394 ± 0.003640
+2024-07-24 16:30:06,244 - INFO - LightGBM models and predictions saved.
+2024-07-24 16:30:06,258 - INFO - Starting XGBoost training...
+2024-07-24 16:30:06,267 - INFO - ---- Fold 1 ----
+2024-07-24 16:30:19,289 - INFO - Validation AUC score for fold 1: 0.865023
+2024-07-24 16:30:19,555 - INFO - ---- Fold 2 ----
+2024-07-24 16:30:33,386 - INFO - Validation AUC score for fold 2: 0.856486
+2024-07-24 16:30:33,649 - INFO - ---- Fold 3 ----
+2024-07-24 16:30:48,449 - INFO - Validation AUC score for fold 3: 0.862684
+2024-07-24 16:30:48,716 - INFO - ---- Fold 4 ----
+2024-07-24 16:31:05,670 - INFO - Validation AUC score for fold 4: 0.858279
+2024-07-24 16:31:06,009 - INFO - ---- Fold 5 ----
+2024-07-24 16:31:17,561 - INFO - Validation AUC score for fold 5: 0.857371
+2024-07-24 16:31:17,777 - INFO - Overall ROC-AUC Score for XGBoost: 0.859969 ± 0.003306
+2024-07-24 16:31:17,780 - INFO - XGBoost models and predictions saved.

@@ -1,0 +1,31 @@
+2024-07-23 21:18:02,641 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-23 21:18:07,844 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134, 'unique': 54} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718, 'unique': 54}
+2024-07-23 21:18:07,844 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694, 'unique': 51728} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36, 'unique': 51728}
+2024-07-23 21:18:07,844 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903, 'unique': 152} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544, 'unique': 152}
+2024-07-23 21:18:07,845 - INFO - Column Age precision loss: 0.000000%
+2024-07-23 21:18:07,846 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-23 21:18:07,846 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-23 21:18:07,847 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-23 21:18:07,847 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-23 21:18:07,848 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-23 21:18:07,848 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-23 21:18:07,848 - INFO - Column Response precision loss: 0.000000%
+2024-07-23 21:18:07,850 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-23 21:18:07,850 - INFO - Decreased by 69.8%
+2024-07-23 21:18:18,666 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-23 21:18:22,176 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346, 'unique': 53} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613, 'unique': 53}
+2024-07-23 21:18:22,176 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543, 'unique': 50044} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523, 'unique': 50044}
+2024-07-23 21:18:22,177 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294, 'unique': 151} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501, 'unique': 151}
+2024-07-23 21:18:22,177 - INFO - Column Age precision loss: 0.000000%
+2024-07-23 21:18:22,178 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-23 21:18:22,179 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-23 21:18:22,179 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-23 21:18:22,180 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-23 21:18:22,180 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-23 21:18:22,180 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-23 21:18:22,182 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-23 21:18:22,182 - INFO - Decreased by 68.2%
+2024-07-23 21:18:22,276 - INFO - Data loaded successfully.
+2024-07-23 21:18:24,392 - INFO - Data preprocessed successfully.
+2024-07-23 21:19:02,724 - INFO - Feature engineering completed successfully.
+2024-07-23 21:19:06,590 - INFO - Features and target variable separated and scaled.

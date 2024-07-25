@@ -1,0 +1,9 @@
+2024-07-23 22:50:14,894 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-23 22:50:16,755 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-23 22:50:16,755 - INFO - Decreased by 69.8%
+2024-07-23 22:50:28,406 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-23 22:50:29,634 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-23 22:50:29,635 - INFO - Decreased by 68.2%
+2024-07-23 22:50:29,749 - INFO - Data loaded successfully.
+2024-07-23 22:50:31,997 - INFO - Data preprocessed successfully.
+2024-07-23 22:51:08,499 - INFO - Feature engineering completed successfully.

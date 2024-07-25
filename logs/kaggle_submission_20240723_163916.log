@@ -1,0 +1,33 @@
+2024-07-23 16:39:32,054 - INFO - Memory usage of dataframe is 1053.30 MB
+2024-07-23 16:39:33,804 - INFO - Memory usage after optimization is: 274.30 MB
+2024-07-23 16:39:33,804 - INFO - Decreased by 74.0%
+2024-07-23 16:39:43,465 - INFO - Memory usage of dataframe is 643.68 MB
+2024-07-23 16:39:44,633 - INFO - Memory usage after optimization is: 175.55 MB
+2024-07-23 16:39:44,633 - INFO - Decreased by 72.7%
+2024-07-23 16:39:44,707 - INFO - Data loaded successfully.
+2024-07-23 16:39:45,782 - INFO - Data preprocessed successfully.
+2024-07-23 16:39:49,070 - INFO - Feature engineering completed successfully.
+2024-07-23 16:39:49,418 - INFO - Features and target variable separated and scaled.
+2024-07-23 16:39:49,552 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:40:05,826 - INFO - Validation AUC score for fold 1: 0.877676
+2024-07-23 16:40:06,467 - INFO - 
+---- Fold 2 ----
+
+2024-07-23 16:40:23,169 - INFO - Validation AUC score for fold 2: 0.875268
+2024-07-23 16:40:23,832 - INFO - 
+---- Fold 3 ----
+
+2024-07-23 16:40:41,086 - INFO - Validation AUC score for fold 3: 0.877612
+2024-07-23 16:40:41,708 - INFO - 
+---- Fold 4 ----
+
+2024-07-23 16:40:58,104 - INFO - Validation AUC score for fold 4: 0.875858
+2024-07-23 16:40:58,720 - INFO - 
+---- Fold 5 ----
+
+2024-07-23 16:41:16,830 - INFO - Validation AUC score for fold 5: 0.877951
+2024-07-23 16:41:17,559 - INFO - 
+---> Overall ROC-AUC Score for CatBoost: 0.876873 ± 0.001092
+

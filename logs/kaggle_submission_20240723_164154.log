@@ -1,0 +1,20 @@
+2024-07-23 16:42:09,917 - INFO - Memory usage of dataframe is 1053.30 MB
+2024-07-23 16:42:11,710 - INFO - Memory usage after optimization is: 274.30 MB
+2024-07-23 16:42:11,710 - INFO - Decreased by 74.0%
+2024-07-23 16:42:21,169 - INFO - Memory usage of dataframe is 643.68 MB
+2024-07-23 16:42:22,334 - INFO - Memory usage after optimization is: 175.55 MB
+2024-07-23 16:42:22,334 - INFO - Decreased by 72.7%
+2024-07-23 16:42:22,430 - INFO - Data loaded successfully.
+2024-07-23 16:42:22,771 - INFO - Data preprocessed successfully.
+2024-07-23 16:42:55,899 - INFO - Feature engineering completed successfully.
+2024-07-23 16:42:59,041 - INFO - Features and target variable separated and scaled.
+2024-07-23 16:43:00,292 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:48:44,792 - INFO - Validation AUC score for fold 1: 0.882890
+2024-07-23 16:49:11,696 - INFO - 
+---- Fold 2 ----
+
+2024-07-23 16:49:49,025 - INFO - 
+---- Fold 1 ----
+

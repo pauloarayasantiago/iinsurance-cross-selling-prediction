@@ -1,0 +1,131 @@
+2024-07-23 12:59:32,836 - INFO - Data loaded successfully.
+2024-07-23 12:59:32,836 - INFO - Original train dataset size: (11504798, 11)
+2024-07-23 12:59:32,836 - INFO - Original test dataset size: (7669866, 10)
+2024-07-23 12:59:32,838 - INFO - Train dataset columns:
+Gender                  category
+Age                         int8
+Driving_License             int8
+Region_Code              float16
+Previously_Insured          int8
+Vehicle_Age             category
+Vehicle_Damage          category
+Annual_Premium           float32
+Policy_Sales_Channel     float16
+Vintage                    int16
+Response                    int8
+dtype: object
+2024-07-23 12:59:32,839 - INFO - Test dataset columns:
+Gender                  category
+Age                         int8
+Driving_License             int8
+Region_Code              float16
+Previously_Insured          int8
+Vehicle_Age             category
+Vehicle_Damage          category
+Annual_Premium           float32
+Policy_Sales_Channel     float16
+Vintage                    int16
+dtype: object
+2024-07-23 12:59:32,975 - INFO - Train dataset missing values:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+Response                0
+dtype: int64
+2024-07-23 12:59:33,060 - INFO - Test dataset missing values:
+Gender                  0
+Age                     0
+Driving_License         0
+Region_Code             0
+Previously_Insured      0
+Vehicle_Age             0
+Vehicle_Damage          0
+Annual_Premium          0
+Policy_Sales_Channel    0
+Vintage                 0
+dtype: int64
+2024-07-23 12:59:35,785 - INFO - Train dataset descriptive statistics:
+          Gender           Age  Driving_License  Region_Code  \
+count   11504798  1.150480e+07     1.150480e+07   11504798.0   
+unique         2           NaN              NaN          NaN   
+top         Male           NaN              NaN          NaN   
+freq     6228134           NaN              NaN          NaN   
+mean         NaN  3.838356e+01     9.980220e-01          NaN   
+std          NaN  1.499346e+01     4.443120e-02          0.0   
+min          NaN  2.000000e+01     0.000000e+00          0.0   
+25%          NaN  2.400000e+01     1.000000e+00         15.0   
+50%          NaN  3.600000e+01     1.000000e+00         28.0   
+75%          NaN  4.900000e+01     1.000000e+00         35.0   
+max          NaN  8.500000e+01     1.000000e+00         52.0   
+
+        Previously_Insured Vehicle_Age Vehicle_Damage  Annual_Premium  \
+count         1.150480e+07    11504798       11504798    1.150480e+07   
+unique                 NaN           3              2             NaN   
+top                    NaN    1-2 Year            Yes             NaN   
+freq                   NaN     5982678        5783229             NaN   
+mean          4.629966e-01         NaN            NaN    3.046136e+04   
+std           4.986289e-01         NaN            NaN    1.640609e+04   
+min           0.000000e+00         NaN            NaN    2.630000e+03   
+25%           0.000000e+00         NaN            NaN    2.527700e+04   
+50%           0.000000e+00         NaN            NaN    3.182400e+04   
+75%           1.000000e+00         NaN            NaN    3.945100e+04   
+max           1.000000e+00         NaN            NaN    5.401650e+05   
+
+        Policy_Sales_Channel       Vintage      Response  
+count             11504798.0  1.150480e+07  1.150480e+07  
+unique                   NaN           NaN           NaN  
+top                      NaN           NaN           NaN  
+freq                     NaN           NaN           NaN  
+mean                     NaN  1.638977e+02  1.229973e-01  
+std                      0.0  7.997953e+01  3.284341e-01  
+min                      1.0  1.000000e+01  0.000000e+00  
+25%                     29.0  9.900000e+01  0.000000e+00  
+50%                    151.0  1.660000e+02  0.000000e+00  
+75%                    152.0  2.320000e+02  0.000000e+00  
+max                    163.0  2.990000e+02  1.000000e+00  
+2024-07-23 12:59:37,491 - INFO - Test dataset descriptive statistics:
+         Gender           Age  Driving_License  Region_Code  \
+count   7669866  7.669866e+06     7.669866e+06    7669866.0   
+unique        2           NaN              NaN          NaN   
+top        Male           NaN              NaN          NaN   
+freq    4151402           NaN              NaN          NaN   
+mean        NaN  3.839137e+01     9.980208e-01          NaN   
+std         NaN  1.499951e+01     4.444387e-02          0.0   
+min         NaN  2.000000e+01     0.000000e+00          0.0   
+25%         NaN  2.400000e+01     1.000000e+00         15.0   
+50%         NaN  3.600000e+01     1.000000e+00         28.0   
+75%         NaN  4.900000e+01     1.000000e+00         35.0   
+max         NaN  8.500000e+01     1.000000e+00         52.0   
+
+        Previously_Insured Vehicle_Age Vehicle_Damage  Annual_Premium  \
+count         7.669866e+06     7669866        7669866    7.669866e+06   
+unique                 NaN           3              2             NaN   
+top                    NaN    1-2 Year            Yes             NaN   
+freq                   NaN     3989276        3854463             NaN   
+mean          4.630772e-01         NaN            NaN    3.046552e+04   
+std           4.986349e-01         NaN            NaN    1.640548e+04   
+min           0.000000e+00         NaN            NaN    2.630000e+03   
+25%           0.000000e+00         NaN            NaN    2.528000e+04   
+50%           0.000000e+00         NaN            NaN    3.182700e+04   
+75%           1.000000e+00         NaN            NaN    3.946000e+04   
+max           1.000000e+00         NaN            NaN    5.401650e+05   
+
+        Policy_Sales_Channel       Vintage  
+count              7669866.0  7.669866e+06  
+unique                   NaN           NaN  
+top                      NaN           NaN  
+freq                     NaN           NaN  
+mean                     NaN  1.638996e+02  
+std                      0.0  7.998445e+01  
+min                      1.0  1.000000e+01  
+25%                     29.0  9.900000e+01  
+50%                    151.0  1.660000e+02  
+75%                    152.0  2.320000e+02  
+max                    163.0  2.990000e+02  

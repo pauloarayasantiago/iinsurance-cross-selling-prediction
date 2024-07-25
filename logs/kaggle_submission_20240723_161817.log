@@ -1,0 +1,98 @@
+2024-07-23 16:18:32,126 - INFO - Memory usage of dataframe is 1053.30 MB
+2024-07-23 16:18:33,887 - INFO - Memory usage after optimization is: 274.30 MB
+2024-07-23 16:18:33,888 - INFO - Decreased by 74.0%
+2024-07-23 16:18:43,749 - INFO - Memory usage of dataframe is 643.68 MB
+2024-07-23 16:18:44,920 - INFO - Memory usage after optimization is: 175.55 MB
+2024-07-23 16:18:44,920 - INFO - Decreased by 72.7%
+2024-07-23 16:18:44,987 - INFO - Data loaded successfully.
+2024-07-23 16:18:45,357 - INFO - Data preprocessed successfully.
+2024-07-23 16:19:18,961 - INFO - Feature engineering completed successfully.
+2024-07-23 16:19:22,066 - INFO - Features and target variable separated and scaled.
+2024-07-23 16:19:23,289 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:31:48,079 - INFO - Memory usage of dataframe is 1053.30 MB
+2024-07-23 16:31:50,171 - INFO - Memory usage after optimization is: 274.30 MB
+2024-07-23 16:31:50,172 - INFO - Decreased by 74.0%
+2024-07-23 16:32:01,806 - INFO - Memory usage of dataframe is 643.68 MB
+2024-07-23 16:32:02,907 - INFO - Memory usage after optimization is: 175.55 MB
+2024-07-23 16:32:02,908 - INFO - Decreased by 72.7%
+2024-07-23 16:32:02,982 - INFO - Data loaded successfully.
+2024-07-23 16:32:03,833 - INFO - Data preprocessed successfully.
+2024-07-23 16:32:04,218 - INFO - Feature engineering completed successfully.
+2024-07-23 16:32:04,385 - INFO - Features and target variable separated and scaled.
+2024-07-23 16:32:04,404 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:32:19,173 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:33:05,699 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:33:19,922 - INFO - Validation AUC score for fold 1: 0.867169
+2024-07-23 16:33:20,227 - INFO - 
+---- Fold 2 ----
+
+2024-07-23 16:33:33,972 - INFO - Validation AUC score for fold 2: 0.863973
+2024-07-23 16:33:34,118 - INFO - 
+---- Fold 3 ----
+
+2024-07-23 16:33:47,668 - INFO - Validation AUC score for fold 3: 0.859747
+2024-07-23 16:33:47,815 - INFO - 
+---- Fold 4 ----
+
+2024-07-23 16:34:01,192 - INFO - Validation AUC score for fold 4: 0.863959
+2024-07-23 16:34:01,368 - INFO - 
+---- Fold 5 ----
+
+2024-07-23 16:34:14,659 - INFO - Validation AUC score for fold 5: 0.865561
+2024-07-23 16:34:14,826 - INFO - 
+---> Overall ROC-AUC Score: 0.864082 ± 0.002471
+
+2024-07-23 16:34:31,663 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:34:44,014 - INFO - Validation AUC score for fold 1: 0.870289
+2024-07-23 16:34:44,119 - INFO - 
+---- Fold 2 ----
+
+2024-07-23 16:34:55,781 - INFO - Validation AUC score for fold 2: 0.863843
+2024-07-23 16:34:55,880 - INFO - 
+---- Fold 3 ----
+
+2024-07-23 16:35:07,552 - INFO - Validation AUC score for fold 3: 0.861832
+2024-07-23 16:35:07,654 - INFO - 
+---- Fold 4 ----
+
+2024-07-23 16:35:17,909 - INFO - Validation AUC score for fold 4: 0.867899
+2024-07-23 16:35:18,018 - INFO - 
+---- Fold 5 ----
+
+2024-07-23 16:35:31,863 - INFO - Validation AUC score for fold 5: 0.866926
+2024-07-23 16:35:31,965 - INFO - 
+---> Overall ROC-AUC Score for XGBoost: 0.866158 ± 0.002992
+
+2024-07-23 16:35:35,599 - INFO - 
+---- Fold 1 ----
+
+2024-07-23 16:35:39,006 - INFO - Validation AUC score for fold 1: 0.870158
+2024-07-23 16:35:39,095 - INFO - 
+---- Fold 2 ----
+
+2024-07-23 16:35:41,748 - INFO - Validation AUC score for fold 2: 0.865754
+2024-07-23 16:35:41,830 - INFO - 
+---- Fold 3 ----
+
+2024-07-23 16:35:44,927 - INFO - Validation AUC score for fold 3: 0.862286
+2024-07-23 16:35:45,016 - INFO - 
+---- Fold 4 ----
+
+2024-07-23 16:35:47,702 - INFO - Validation AUC score for fold 4: 0.868167
+2024-07-23 16:35:47,825 - INFO - 
+---- Fold 5 ----
+
+2024-07-23 16:35:51,280 - INFO - Validation AUC score for fold 5: 0.866149
+2024-07-23 16:35:51,373 - INFO - 
+---> Overall ROC-AUC Score for CatBoost: 0.866503 ± 0.002630
+
