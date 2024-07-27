@@ -1,0 +1,76 @@
+2024-07-24 23:49:04,772 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-24 23:49:06,369 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-24 23:49:06,369 - INFO - Decreased by 69.8%
+2024-07-24 23:49:06,708 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718}
+2024-07-24 23:49:06,709 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36}
+2024-07-24 23:49:06,709 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544}
+2024-07-24 23:49:06,709 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 23:49:06,710 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 23:49:06,710 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-24 23:49:06,711 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 23:49:06,711 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-24 23:49:06,711 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-24 23:49:06,712 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 23:49:06,713 - INFO - Column Response precision loss: 0.000000%
+2024-07-24 23:49:06,713 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-24 23:49:12,007 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-24 23:49:13,107 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-24 23:49:13,107 - INFO - Decreased by 68.2%
+2024-07-24 23:49:13,333 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613}
+2024-07-24 23:49:13,333 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523}
+2024-07-24 23:49:13,334 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501}
+2024-07-24 23:49:13,334 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 23:49:13,335 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 23:49:13,335 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-24 23:49:13,336 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 23:49:13,336 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-24 23:49:13,337 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-24 23:49:13,337 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 23:49:13,337 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-24 23:49:13,422 - INFO - Data loaded successfully.
+2024-07-24 23:49:14,577 - INFO - Data preprocessing completed.
+2024-07-24 23:49:15,309 - INFO - Data preprocessing completed.
+2024-07-24 23:49:15,309 - INFO - Data preprocessed successfully.
+2024-07-24 23:49:35,527 - INFO - Feature engineering completed.
+2024-07-24 23:49:48,716 - INFO - Feature engineering completed.
+2024-07-24 23:49:48,790 - INFO - Feature engineering completed successfully.
+2024-07-24 23:49:49,877 - INFO - Numeric columns normalized.
+2024-07-24 23:50:46,839 - INFO - Starting CatBoost training...
+2024-07-24 23:50:47,878 - INFO - ---- CatBoost Fold 1 ----
+2024-07-25 00:42:12,140 - INFO - Validation AUC score for fold 1: 0.895214
+2024-07-25 00:46:17,893 - INFO - ---- CatBoost Fold 2 ----
+2024-07-25 01:33:51,631 - INFO - Validation AUC score for fold 2: 0.894813
+2024-07-25 01:35:55,314 - INFO - ---- CatBoost Fold 3 ----
+2024-07-25 02:19:34,266 - INFO - Validation AUC score for fold 3: 0.895069
+2024-07-25 02:21:10,003 - INFO - ---- CatBoost Fold 4 ----
+2024-07-25 03:09:42,565 - INFO - Validation AUC score for fold 4: 0.894896
+2024-07-25 03:14:27,078 - INFO - ---- CatBoost Fold 5 ----
+2024-07-25 03:58:04,009 - INFO - Validation AUC score for fold 5: 0.895543
+2024-07-25 04:00:50,900 - INFO - Overall ROC-AUC Score for CatBoost: 0.895107 ± 0.000259
+2024-07-25 04:01:01,047 - INFO - CatBoost models and predictions saved.
+2024-07-25 04:01:03,361 - INFO - Starting LightGBM training...
+2024-07-25 04:01:05,606 - INFO - ---- Fold 1 ----
+2024-07-25 04:47:47,087 - INFO - Validation AUC score for fold 1: 0.884412
+2024-07-25 04:49:39,523 - INFO - ---- Fold 2 ----
+2024-07-25 05:36:03,230 - INFO - Validation AUC score for fold 2: 0.884195
+2024-07-25 05:37:53,289 - INFO - ---- Fold 3 ----
+2024-07-25 06:24:20,530 - INFO - Validation AUC score for fold 3: 0.884576
+2024-07-25 06:26:12,291 - INFO - ---- Fold 4 ----
+2024-07-25 07:12:40,538 - INFO - Validation AUC score for fold 4: 0.884259
+2024-07-25 07:14:32,643 - INFO - ---- Fold 5 ----
+2024-07-25 08:01:02,186 - INFO - Validation AUC score for fold 5: 0.884909
+2024-07-25 08:02:52,628 - INFO - Overall ROC-AUC Score for LightGBM: 0.884470 ± 0.000256
+2024-07-25 08:02:52,798 - INFO - LightGBM models and predictions saved.
+2024-07-25 08:02:52,808 - INFO - Starting XGBoost training...
+2024-07-25 08:02:53,909 - INFO - ---- Fold 1 ----
+2024-07-25 08:16:48,199 - INFO - Validation AUC score for fold 1: 0.888277
+2024-07-25 08:17:02,130 - INFO - ---- Fold 2 ----
+2024-07-25 08:33:01,226 - INFO - Validation AUC score for fold 2: 0.888459
+2024-07-25 08:33:17,557 - INFO - ---- Fold 3 ----
+2024-07-25 08:47:15,085 - INFO - Validation AUC score for fold 3: 0.888454
+2024-07-25 08:47:28,569 - INFO - ---- Fold 4 ----
+2024-07-25 09:03:07,760 - INFO - Validation AUC score for fold 4: 0.888444
+2024-07-25 09:03:24,242 - INFO - ---- Fold 5 ----
+2024-07-25 09:19:20,758 - INFO - Validation AUC score for fold 5: 0.889079
+2024-07-25 09:19:36,327 - INFO - Overall ROC-AUC Score for XGBoost: 0.888543 ± 0.000277
+2024-07-25 09:19:36,400 - INFO - XGBoost models and predictions saved.

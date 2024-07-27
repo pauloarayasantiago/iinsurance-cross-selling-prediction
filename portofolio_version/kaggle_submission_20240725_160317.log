@@ -1,0 +1,6 @@
+2024-07-25 16:03:27,505 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 16:03:28,591 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 16:03:28,591 - INFO - Decreased by 68.2%
+2024-07-25 16:03:42,958 - WARNING - Unknown categories in column Gender: {0, 1}
+2024-07-25 16:03:43,226 - WARNING - Unknown categories in column Vehicle_Damage: {0, 1}
+2024-07-25 16:03:43,476 - WARNING - Unknown categories in column Vehicle_Age: {0, 1, 2}

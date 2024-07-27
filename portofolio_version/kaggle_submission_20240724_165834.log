@@ -1,0 +1,71 @@
+2024-07-24 16:58:56,769 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-24 16:58:58,498 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-24 16:58:58,498 - INFO - Decreased by 69.8%
+2024-07-24 16:58:58,851 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718}
+2024-07-24 16:58:58,852 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36}
+2024-07-24 16:58:58,853 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544}
+2024-07-24 16:58:58,853 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:58:58,854 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:58:58,854 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-24 16:58:58,854 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:58:58,854 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-24 16:58:58,855 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-24 16:58:58,855 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:58:58,856 - INFO - Column Response precision loss: 0.000000%
+2024-07-24 16:58:58,856 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-24 16:59:04,519 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-24 16:59:05,638 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-24 16:59:05,639 - INFO - Decreased by 68.2%
+2024-07-24 16:59:05,865 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613}
+2024-07-24 16:59:05,867 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523}
+2024-07-24 16:59:05,867 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501}
+2024-07-24 16:59:05,868 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 16:59:05,868 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 16:59:05,869 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-24 16:59:05,870 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 16:59:05,870 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-24 16:59:05,871 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-24 16:59:05,871 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 16:59:05,872 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-24 16:59:05,975 - INFO - Data loaded successfully.
+2024-07-24 16:59:07,194 - INFO - Data preprocessing completed.
+2024-07-24 16:59:07,931 - INFO - Data preprocessing completed.
+2024-07-24 16:59:07,931 - INFO - Data preprocessed successfully.
+2024-07-24 16:59:29,169 - INFO - Feature engineering completed.
+2024-07-24 16:59:43,156 - INFO - Feature engineering completed.
+2024-07-24 16:59:43,262 - INFO - Feature engineering completed successfully.
+2024-07-24 16:59:44,578 - INFO - Numeric columns normalized.
+2024-07-24 17:01:11,324 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-24 17:01:13,057 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-24 17:01:13,058 - INFO - Decreased by 69.8%
+2024-07-24 17:01:13,464 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.41868976752134} != {'min': 0.0, 'max': 52.0, 'mean': 26.418718}
+2024-07-24 17:01:13,464 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30461.370410588694} != {'min': 2630.0, 'max': 540165.0, 'mean': 30461.36}
+2024-07-24 17:01:13,465 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.42544188954903} != {'min': 1.0, 'max': 163.0, 'mean': 112.42544}
+2024-07-24 17:01:13,466 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 17:01:13,466 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 17:01:13,466 - INFO - Column Region_Code precision loss: 0.000108%
+2024-07-24 17:01:13,467 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 17:01:13,467 - INFO - Column Annual_Premium precision loss: 0.000036%
+2024-07-24 17:01:13,468 - INFO - Column Policy_Sales_Channel precision loss: 0.000004%
+2024-07-24 17:01:13,468 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 17:01:13,469 - INFO - Column Response precision loss: 0.000000%
+2024-07-24 17:01:13,470 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-24 17:01:19,151 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-24 17:01:20,303 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-24 17:01:20,303 - INFO - Decreased by 68.2%
+2024-07-24 17:01:20,571 - WARNING - Column Region_Code has changed: {'min': 0.0, 'max': 52.0, 'mean': 26.42661358099346} != {'min': 0.0, 'max': 52.0, 'mean': 26.426613}
+2024-07-24 17:01:20,572 - WARNING - Column Annual_Premium has changed: {'min': 2630.0, 'max': 540165.0, 'mean': 30465.52566837543} != {'min': 2630.0, 'max': 540165.0, 'mean': 30465.523}
+2024-07-24 17:01:20,572 - WARNING - Column Policy_Sales_Channel has changed: {'min': 1.0, 'max': 163.0, 'mean': 112.36499203506294} != {'min': 1.0, 'max': 163.0, 'mean': 112.36501}
+2024-07-24 17:01:20,573 - INFO - Column Age precision loss: 0.000000%
+2024-07-24 17:01:20,573 - INFO - Column Driving_License precision loss: 0.000000%
+2024-07-24 17:01:20,574 - INFO - Column Region_Code precision loss: 0.000003%
+2024-07-24 17:01:20,575 - INFO - Column Previously_Insured precision loss: 0.000000%
+2024-07-24 17:01:20,575 - INFO - Column Annual_Premium precision loss: 0.000007%
+2024-07-24 17:01:20,576 - INFO - Column Policy_Sales_Channel precision loss: 0.000019%
+2024-07-24 17:01:20,576 - INFO - Column Vintage precision loss: 0.000000%
+2024-07-24 17:01:20,577 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-24 17:01:20,713 - INFO - Data loaded successfully.
+2024-07-24 17:01:21,924 - INFO - Data preprocessing completed.
+2024-07-24 17:01:22,707 - INFO - Data preprocessing completed.
+2024-07-24 17:01:22,708 - INFO - Data preprocessed successfully.
+2024-07-24 17:01:44,146 - INFO - Feature engineering completed.

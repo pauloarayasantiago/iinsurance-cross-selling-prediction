@@ -1,0 +1,22 @@
+2024-07-25 21:58:34,426 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-25 21:58:36,007 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-25 21:58:36,008 - INFO - Decreased by 69.8%
+2024-07-25 21:58:45,086 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 21:58:46,142 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 21:58:46,142 - INFO - Decreased by 68.2%
+2024-07-25 21:58:46,205 - INFO - Data loaded successfully.
+2024-07-25 21:58:47,997 - INFO - Data preprocessed successfully.
+2024-07-25 21:59:20,424 - INFO - Feature engineering completed successfully.
+2024-07-25 23:05:02,813 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-25 23:05:04,524 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-25 23:05:04,524 - INFO - Decreased by 69.8%
+2024-07-25 23:05:13,823 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 23:05:14,882 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 23:05:14,883 - INFO - Decreased by 68.2%
+2024-07-25 23:05:15,037 - INFO - Data loaded successfully.
+2024-07-25 23:05:16,838 - INFO - Data preprocessed successfully.
+2024-07-25 23:05:49,112 - INFO - Feature engineering completed successfully.
+2024-07-25 23:33:28,932 - INFO - Best AUC score: 0.877075
+2024-07-25 23:33:28,933 - INFO - Best parameters: {'learning_rate': 0.06186207490162208, 'iterations': 2140, 'depth': 7, 'l2_leaf_reg': 3.1144462200141576, 'random_strength': 0.8114076476999805, 'bagging_temperature': 0.9763015247159273}
+2024-07-25 23:33:37,978 - INFO - Final CatBoost model and predictions saved.
+2024-07-25 23:33:48,525 - INFO - Submission file submission_20240725_230447.csv created successfully.

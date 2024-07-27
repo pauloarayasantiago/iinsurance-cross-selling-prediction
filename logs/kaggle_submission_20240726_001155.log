@@ -1,0 +1,26 @@
+2024-07-26 00:12:10,106 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-26 00:12:11,730 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-26 00:12:11,730 - INFO - Decreased by 69.8%
+2024-07-26 00:12:20,931 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-26 00:12:21,999 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-26 00:12:21,999 - INFO - Decreased by 68.2%
+2024-07-26 00:12:22,060 - INFO - Data loaded successfully.
+2024-07-26 00:12:23,871 - INFO - Data preprocessed successfully.
+2024-07-26 00:13:15,837 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-26 00:13:17,435 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-26 00:13:17,436 - INFO - Decreased by 69.8%
+2024-07-26 00:13:26,856 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-26 00:13:27,974 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-26 00:13:27,975 - INFO - Decreased by 68.2%
+2024-07-26 00:13:28,049 - INFO - Data loaded successfully.
+2024-07-26 00:13:29,776 - INFO - Data preprocessed successfully.
+2024-07-26 00:14:01,673 - INFO - Feature engineering completed successfully.
+2024-07-26 00:16:13,848 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-26 00:16:15,488 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-26 00:16:15,488 - INFO - Decreased by 69.8%
+2024-07-26 00:16:25,039 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-26 00:16:26,094 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-26 00:16:26,094 - INFO - Decreased by 68.2%
+2024-07-26 00:16:26,184 - INFO - Data loaded successfully.
+2024-07-26 00:16:27,953 - INFO - Data preprocessed successfully.
+2024-07-26 00:16:59,946 - INFO - Feature engineering completed successfully.

@@ -1,0 +1,31 @@
+2024-07-25 17:17:41,742 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-25 17:17:43,306 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-25 17:17:43,306 - INFO - Decreased by 69.8%
+2024-07-25 17:17:52,512 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 17:17:53,546 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 17:17:53,546 - INFO - Decreased by 68.2%
+2024-07-25 17:17:53,606 - INFO - Data loaded successfully.
+2024-07-25 17:17:55,328 - INFO - Data preprocessed successfully.
+2024-07-25 17:18:26,964 - INFO - Feature engineering completed successfully.
+2024-07-25 21:27:00,216 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-25 21:27:01,966 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-25 21:27:01,966 - INFO - Decreased by 69.8%
+2024-07-25 21:27:12,107 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 21:27:13,277 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 21:27:13,278 - INFO - Decreased by 68.2%
+2024-07-25 21:27:13,422 - INFO - Data loaded successfully.
+2024-07-25 21:27:15,228 - INFO - Data preprocessed successfully.
+2024-07-25 21:27:48,120 - INFO - Feature engineering completed successfully.
+2024-07-25 21:52:44,740 - INFO - Best AUC score: 0.877209
+2024-07-25 21:52:44,741 - INFO - Best parameters: {'learning_rate': 0.055291974286297126, 'iterations': 2369, 'depth': 7, 'l2_leaf_reg': 2.10523240480505, 'random_strength': 0.005177058966769351, 'bagging_temperature': 0.3547276606087343}
+2024-07-25 21:52:54,204 - INFO - Final CatBoost model and predictions saved.
+2024-07-25 21:53:05,029 - INFO - Submission file submission_20240725_212644.csv created successfully.
+2024-07-25 21:56:49,733 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-25 21:56:51,457 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-25 21:56:51,458 - INFO - Decreased by 69.8%
+2024-07-25 21:57:01,325 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-25 21:57:02,407 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-25 21:57:02,407 - INFO - Decreased by 68.2%
+2024-07-25 21:57:02,576 - INFO - Data loaded successfully.
+2024-07-25 21:57:04,325 - INFO - Data preprocessed successfully.
+2024-07-25 21:57:36,170 - INFO - Feature engineering completed successfully.
