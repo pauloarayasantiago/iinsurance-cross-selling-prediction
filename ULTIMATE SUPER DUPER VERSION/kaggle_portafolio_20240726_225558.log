@@ -1,0 +1,10 @@
+2024-07-26 22:56:05,612 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-26 22:56:07,290 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-26 22:56:07,291 - INFO - Decreased by 69.8%
+2024-07-26 22:56:07,291 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-26 22:56:11,759 - INFO - Start memory usage of dataframe: 643.68 MB
+2024-07-26 22:56:12,869 - INFO - End memory usage of dataframe: 204.81 MB
+2024-07-26 22:56:12,871 - INFO - Decreased by 68.2%
+2024-07-26 22:56:12,872 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\test.csv
+2024-07-26 22:56:13,487 - INFO - Data loaded successfully.
+2024-07-26 22:56:13,506 - INFO - Data split into training and validation sets.

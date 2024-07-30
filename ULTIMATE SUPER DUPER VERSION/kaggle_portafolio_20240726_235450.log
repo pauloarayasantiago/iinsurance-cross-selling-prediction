@@ -1,0 +1,432 @@
+2024-07-26 23:54:57,187 - INFO - Start memory usage of dataframe: 1053.30 MB
+2024-07-26 23:54:58,773 - INFO - End memory usage of dataframe: 318.18 MB
+2024-07-26 23:54:58,773 - INFO - Decreased by 69.8%
+2024-07-26 23:54:58,774 - INFO - Data loaded and memory optimized from C:\Users\paulo\OneDrive\Documents\kaggle_competition_2_datasets\train.csv
+2024-07-26 23:54:59,313 - INFO - Data loaded successfully.
+2024-07-26 23:54:59,330 - INFO - Data split into training and validation sets.
+2024-07-26 23:54:59,551 - INFO - Feature engineering completed.
+2024-07-26 23:54:59,557 - INFO - X_train info:
+<class 'pandas.core.frame.DataFrame'>
+Index: 46019 entries, 4876182 to 9523528
+Data columns (total 24 columns):
+ #   Column                                     Non-Null Count  Dtype   
+---  ------                                     --------------  -----   
+ 0   Gender                                     46019 non-null  category
+ 1   Age                                        46019 non-null  int8    
+ 2   Driving_License                            46019 non-null  int8    
+ 3   Region_Code                                46019 non-null  float32 
+ 4   Previously_Insured                         46019 non-null  int32   
+ 5   Vehicle_Age                                46019 non-null  int8    
+ 6   Vehicle_Damage                             46019 non-null  int8    
+ 7   Annual_Premium                             46019 non-null  float32 
+ 8   Policy_Sales_Channel                       46019 non-null  float32 
+ 9   Vintage                                    46019 non-null  int16   
+ 10  age_bins                                   46019 non-null  category
+ 11  Age_Type                                   46019 non-null  int8    
+ 12  Age_x_Vehicle_Age                          46019 non-null  int8    
+ 13  Age_x_Vehicle_Damage                       46019 non-null  int8    
+ 14  Age_x_Previously_Insured                   46019 non-null  int32   
+ 15  Previously_Insured_x_Policy_Sales_Channel  46019 non-null  int64   
+ 16  Previously_Insured_x_Vehicle_Damage        46019 non-null  int64   
+ 17  Previously_Insured_x_Annual_Premium        46019 non-null  int64   
+ 18  Previously_Insured_x_Vintage               46019 non-null  int64   
+ 19  Previously_Insured_x_Age_Type              46019 non-null  int64   
+ 20  Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  int64   
+ 21  Policy_Sales_Channel_x_Annual_Premium      46019 non-null  int64   
+ 22  Policy_Sales_Channel_x_Vintage             46019 non-null  int64   
+ 23  Policy_Sales_Channel_x_Age_Type            46019 non-null  int64   
+dtypes: category(2), float32(3), int16(1), int32(2), int64(9), int8(7)
+memory usage: 4.9 MB
+
+2024-07-26 23:54:59,617 - INFO - Feature engineering completed.
+2024-07-26 23:54:59,622 - INFO - X_valid info:
+<class 'pandas.core.frame.DataFrame'>
+Index: 11505 entries, 9841306 to 937584
+Data columns (total 24 columns):
+ #   Column                                     Non-Null Count  Dtype   
+---  ------                                     --------------  -----   
+ 0   Gender                                     11505 non-null  category
+ 1   Age                                        11505 non-null  int8    
+ 2   Driving_License                            11505 non-null  int8    
+ 3   Region_Code                                11505 non-null  float32 
+ 4   Previously_Insured                         11505 non-null  int32   
+ 5   Vehicle_Age                                11505 non-null  int8    
+ 6   Vehicle_Damage                             11505 non-null  int8    
+ 7   Annual_Premium                             11505 non-null  float32 
+ 8   Policy_Sales_Channel                       11505 non-null  float32 
+ 9   Vintage                                    11505 non-null  int16   
+ 10  age_bins                                   11505 non-null  category
+ 11  Age_Type                                   11505 non-null  int8    
+ 12  Age_x_Vehicle_Age                          11505 non-null  int8    
+ 13  Age_x_Vehicle_Damage                       11505 non-null  int8    
+ 14  Age_x_Previously_Insured                   11505 non-null  int32   
+ 15  Previously_Insured_x_Policy_Sales_Channel  11505 non-null  int64   
+ 16  Previously_Insured_x_Vehicle_Damage        11505 non-null  int64   
+ 17  Previously_Insured_x_Annual_Premium        11505 non-null  int64   
+ 18  Previously_Insured_x_Vintage               11505 non-null  int64   
+ 19  Previously_Insured_x_Age_Type              11505 non-null  int64   
+ 20  Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  int64   
+ 21  Policy_Sales_Channel_x_Annual_Premium      11505 non-null  int64   
+ 22  Policy_Sales_Channel_x_Vintage             11505 non-null  int64   
+ 23  Policy_Sales_Channel_x_Age_Type            11505 non-null  int64   
+dtypes: category(2), float32(3), int16(1), int32(2), int64(9), int8(7)
+memory usage: 1.2 MB
+
+2024-07-26 23:54:59,627 - INFO - X_train before transformation info:
+<class 'pandas.core.frame.DataFrame'>
+Index: 46019 entries, 4876182 to 9523528
+Data columns (total 24 columns):
+ #   Column                                     Non-Null Count  Dtype   
+---  ------                                     --------------  -----   
+ 0   Gender                                     46019 non-null  category
+ 1   Age                                        46019 non-null  int8    
+ 2   Driving_License                            46019 non-null  int8    
+ 3   Region_Code                                46019 non-null  float32 
+ 4   Previously_Insured                         46019 non-null  int32   
+ 5   Vehicle_Age                                46019 non-null  int8    
+ 6   Vehicle_Damage                             46019 non-null  int8    
+ 7   Annual_Premium                             46019 non-null  float32 
+ 8   Policy_Sales_Channel                       46019 non-null  float32 
+ 9   Vintage                                    46019 non-null  int16   
+ 10  age_bins                                   46019 non-null  category
+ 11  Age_Type                                   46019 non-null  int8    
+ 12  Age_x_Vehicle_Age                          46019 non-null  int8    
+ 13  Age_x_Vehicle_Damage                       46019 non-null  int8    
+ 14  Age_x_Previously_Insured                   46019 non-null  int32   
+ 15  Previously_Insured_x_Policy_Sales_Channel  46019 non-null  int64   
+ 16  Previously_Insured_x_Vehicle_Damage        46019 non-null  int64   
+ 17  Previously_Insured_x_Annual_Premium        46019 non-null  int64   
+ 18  Previously_Insured_x_Vintage               46019 non-null  int64   
+ 19  Previously_Insured_x_Age_Type              46019 non-null  int64   
+ 20  Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  int64   
+ 21  Policy_Sales_Channel_x_Annual_Premium      46019 non-null  int64   
+ 22  Policy_Sales_Channel_x_Vintage             46019 non-null  int64   
+ 23  Policy_Sales_Channel_x_Age_Type            46019 non-null  int64   
+dtypes: category(2), float32(3), int16(1), int32(2), int64(9), int8(7)
+memory usage: 4.9 MB
+
+2024-07-26 23:54:59,632 - INFO - X_valid before transformation info:
+<class 'pandas.core.frame.DataFrame'>
+Index: 11505 entries, 9841306 to 937584
+Data columns (total 24 columns):
+ #   Column                                     Non-Null Count  Dtype   
+---  ------                                     --------------  -----   
+ 0   Gender                                     11505 non-null  category
+ 1   Age                                        11505 non-null  int8    
+ 2   Driving_License                            11505 non-null  int8    
+ 3   Region_Code                                11505 non-null  float32 
+ 4   Previously_Insured                         11505 non-null  int32   
+ 5   Vehicle_Age                                11505 non-null  int8    
+ 6   Vehicle_Damage                             11505 non-null  int8    
+ 7   Annual_Premium                             11505 non-null  float32 
+ 8   Policy_Sales_Channel                       11505 non-null  float32 
+ 9   Vintage                                    11505 non-null  int16   
+ 10  age_bins                                   11505 non-null  category
+ 11  Age_Type                                   11505 non-null  int8    
+ 12  Age_x_Vehicle_Age                          11505 non-null  int8    
+ 13  Age_x_Vehicle_Damage                       11505 non-null  int8    
+ 14  Age_x_Previously_Insured                   11505 non-null  int32   
+ 15  Previously_Insured_x_Policy_Sales_Channel  11505 non-null  int64   
+ 16  Previously_Insured_x_Vehicle_Damage        11505 non-null  int64   
+ 17  Previously_Insured_x_Annual_Premium        11505 non-null  int64   
+ 18  Previously_Insured_x_Vintage               11505 non-null  int64   
+ 19  Previously_Insured_x_Age_Type              11505 non-null  int64   
+ 20  Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  int64   
+ 21  Policy_Sales_Channel_x_Annual_Premium      11505 non-null  int64   
+ 22  Policy_Sales_Channel_x_Vintage             11505 non-null  int64   
+ 23  Policy_Sales_Channel_x_Age_Type            11505 non-null  int64   
+dtypes: category(2), float32(3), int16(1), int32(2), int64(9), int8(7)
+memory usage: 1.2 MB
+
+2024-07-26 23:54:59,806 - INFO - X_train_trans info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 46019 entries, 0 to 46018
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype                   
+---  ------                                                 --------------  -----                   
+ 0   cat__Gender_Female                                     46019 non-null  object                  
+ 1   cat__Gender_Male                                       46019 non-null  object                  
+ 2   cat__Vehicle_Damage_0                                  46019 non-null  object                  
+ 3   cat__Vehicle_Damage_1                                  46019 non-null  object                  
+ 4   minmax__Age                                            46019 non-null  object                  
+ 5   minmax__Region_Code                                    46019 non-null  object                  
+ 6   minmax__Previously_Insured                             46019 non-null  object                  
+ 7   minmax__Policy_Sales_Channel                           46019 non-null  object                  
+ 8   minmax__Vintage                                        46019 non-null  object                  
+ 9   ordinal__Vehicle_Age                                   46019 non-null  object                  
+ 10  robust__Annual_Premium                                 46019 non-null  object                  
+ 11  standard__Age_Type                                     46019 non-null  object                  
+ 12  standard__Age_x_Vehicle_Age                            46019 non-null  object                  
+ 13  standard__Age_x_Vehicle_Damage                         46019 non-null  object                  
+ 14  standard__Age_x_Previously_Insured                     46019 non-null  object                  
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  46019 non-null  object                  
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        46019 non-null  object                  
+ 17  standard_2__Previously_Insured_x_Annual_Premium        46019 non-null  object                  
+ 18  standard_2__Previously_Insured_x_Vintage               46019 non-null  object                  
+ 19  standard_2__Previously_Insured_x_Age_Type              46019 non-null  object                  
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  object                  
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      46019 non-null  object                  
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             46019 non-null  object                  
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            46019 non-null  object                  
+ 24  remainder__Driving_License                             46019 non-null  object                  
+ 25  remainder__age_bins                                    46019 non-null  interval[float64, right]
+dtypes: interval(1), object(25)
+memory usage: 9.5+ MB
+
+2024-07-26 23:54:59,849 - INFO - X_valid_trans info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 11505 entries, 0 to 11504
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype                   
+---  ------                                                 --------------  -----                   
+ 0   cat__Gender_Female                                     11505 non-null  object                  
+ 1   cat__Gender_Male                                       11505 non-null  object                  
+ 2   cat__Vehicle_Damage_0                                  11505 non-null  object                  
+ 3   cat__Vehicle_Damage_1                                  11505 non-null  object                  
+ 4   minmax__Age                                            11505 non-null  object                  
+ 5   minmax__Region_Code                                    11505 non-null  object                  
+ 6   minmax__Previously_Insured                             11505 non-null  object                  
+ 7   minmax__Policy_Sales_Channel                           11505 non-null  object                  
+ 8   minmax__Vintage                                        11505 non-null  object                  
+ 9   ordinal__Vehicle_Age                                   11505 non-null  object                  
+ 10  robust__Annual_Premium                                 11505 non-null  object                  
+ 11  standard__Age_Type                                     11505 non-null  object                  
+ 12  standard__Age_x_Vehicle_Age                            11505 non-null  object                  
+ 13  standard__Age_x_Vehicle_Damage                         11505 non-null  object                  
+ 14  standard__Age_x_Previously_Insured                     11505 non-null  object                  
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  11505 non-null  object                  
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        11505 non-null  object                  
+ 17  standard_2__Previously_Insured_x_Annual_Premium        11505 non-null  object                  
+ 18  standard_2__Previously_Insured_x_Vintage               11505 non-null  object                  
+ 19  standard_2__Previously_Insured_x_Age_Type              11505 non-null  object                  
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  object                  
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      11505 non-null  object                  
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             11505 non-null  object                  
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            11505 non-null  object                  
+ 24  remainder__Driving_License                             11505 non-null  object                  
+ 25  remainder__age_bins                                    11505 non-null  interval[float64, right]
+dtypes: interval(1), object(25)
+memory usage: 2.4+ MB
+
+2024-07-26 23:54:59,954 - INFO - Start memory usage of dataframe: 9.48 MB
+2024-07-26 23:55:00,107 - INFO - End memory usage of dataframe: 4.95 MB
+2024-07-26 23:55:00,107 - INFO - Decreased by 47.8%
+2024-07-26 23:55:00,115 - INFO - X_train_trans_df after memory reduction info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 46019 entries, 0 to 46018
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype                   
+---  ------                                                 --------------  -----                   
+ 0   cat__Gender_Female                                     46019 non-null  category                
+ 1   cat__Gender_Male                                       46019 non-null  category                
+ 2   cat__Vehicle_Damage_0                                  46019 non-null  category                
+ 3   cat__Vehicle_Damage_1                                  46019 non-null  category                
+ 4   minmax__Age                                            46019 non-null  category                
+ 5   minmax__Region_Code                                    46019 non-null  category                
+ 6   minmax__Previously_Insured                             46019 non-null  category                
+ 7   minmax__Policy_Sales_Channel                           46019 non-null  category                
+ 8   minmax__Vintage                                        46019 non-null  category                
+ 9   ordinal__Vehicle_Age                                   46019 non-null  category                
+ 10  robust__Annual_Premium                                 46019 non-null  category                
+ 11  standard__Age_Type                                     46019 non-null  category                
+ 12  standard__Age_x_Vehicle_Age                            46019 non-null  category                
+ 13  standard__Age_x_Vehicle_Damage                         46019 non-null  category                
+ 14  standard__Age_x_Previously_Insured                     46019 non-null  category                
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  46019 non-null  category                
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        46019 non-null  category                
+ 17  standard_2__Previously_Insured_x_Annual_Premium        46019 non-null  category                
+ 18  standard_2__Previously_Insured_x_Vintage               46019 non-null  category                
+ 19  standard_2__Previously_Insured_x_Age_Type              46019 non-null  category                
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  category                
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      46019 non-null  category                
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             46019 non-null  category                
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            46019 non-null  category                
+ 24  remainder__Driving_License                             46019 non-null  category                
+ 25  remainder__age_bins                                    46019 non-null  interval[float64, right]
+dtypes: category(25), interval(1)
+memory usage: 5.0 MB
+
+2024-07-26 23:55:00,117 - INFO - Start memory usage of dataframe: 2.37 MB
+2024-07-26 23:55:00,160 - INFO - End memory usage of dataframe: 1.63 MB
+2024-07-26 23:55:00,161 - INFO - Decreased by 31.4%
+2024-07-26 23:55:00,167 - INFO - X_valid_trans_df after memory reduction info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 11505 entries, 0 to 11504
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype                   
+---  ------                                                 --------------  -----                   
+ 0   cat__Gender_Female                                     11505 non-null  category                
+ 1   cat__Gender_Male                                       11505 non-null  category                
+ 2   cat__Vehicle_Damage_0                                  11505 non-null  category                
+ 3   cat__Vehicle_Damage_1                                  11505 non-null  category                
+ 4   minmax__Age                                            11505 non-null  category                
+ 5   minmax__Region_Code                                    11505 non-null  category                
+ 6   minmax__Previously_Insured                             11505 non-null  category                
+ 7   minmax__Policy_Sales_Channel                           11505 non-null  category                
+ 8   minmax__Vintage                                        11505 non-null  category                
+ 9   ordinal__Vehicle_Age                                   11505 non-null  category                
+ 10  robust__Annual_Premium                                 11505 non-null  category                
+ 11  standard__Age_Type                                     11505 non-null  category                
+ 12  standard__Age_x_Vehicle_Age                            11505 non-null  category                
+ 13  standard__Age_x_Vehicle_Damage                         11505 non-null  category                
+ 14  standard__Age_x_Previously_Insured                     11505 non-null  category                
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  11505 non-null  category                
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        11505 non-null  category                
+ 17  standard_2__Previously_Insured_x_Annual_Premium        11505 non-null  category                
+ 18  standard_2__Previously_Insured_x_Vintage               11505 non-null  category                
+ 19  standard_2__Previously_Insured_x_Age_Type              11505 non-null  category                
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  category                
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      11505 non-null  category                
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             11505 non-null  category                
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            11505 non-null  category                
+ 24  remainder__Driving_License                             11505 non-null  category                
+ 25  remainder__age_bins                                    11505 non-null  interval[float64, right]
+dtypes: category(25), interval(1)
+memory usage: 1.6 MB
+
+2024-07-26 23:55:00,361 - INFO - X_train_trans_df ensure_numeric info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 46019 entries, 0 to 46018
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   cat__Gender_Female                                     46019 non-null  float64
+ 1   cat__Gender_Male                                       46019 non-null  float64
+ 2   cat__Vehicle_Damage_0                                  46019 non-null  float64
+ 3   cat__Vehicle_Damage_1                                  46019 non-null  float64
+ 4   minmax__Age                                            46019 non-null  float64
+ 5   minmax__Region_Code                                    46019 non-null  float64
+ 6   minmax__Previously_Insured                             46019 non-null  float64
+ 7   minmax__Policy_Sales_Channel                           46019 non-null  float64
+ 8   minmax__Vintage                                        46019 non-null  float64
+ 9   ordinal__Vehicle_Age                                   46019 non-null  float64
+ 10  robust__Annual_Premium                                 46019 non-null  float64
+ 11  standard__Age_Type                                     46019 non-null  float64
+ 12  standard__Age_x_Vehicle_Age                            46019 non-null  float64
+ 13  standard__Age_x_Vehicle_Damage                         46019 non-null  float64
+ 14  standard__Age_x_Previously_Insured                     46019 non-null  float64
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  46019 non-null  float64
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        46019 non-null  float64
+ 17  standard_2__Previously_Insured_x_Annual_Premium        46019 non-null  float64
+ 18  standard_2__Previously_Insured_x_Vintage               46019 non-null  float64
+ 19  standard_2__Previously_Insured_x_Age_Type              46019 non-null  float64
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  float64
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      46019 non-null  float64
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             46019 non-null  float64
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            46019 non-null  float64
+ 24  remainder__Driving_License                             46019 non-null  int64  
+ 25  remainder__age_bins                                    0 non-null      float64
+dtypes: float64(25), int64(1)
+memory usage: 9.1 MB
+
+2024-07-26 23:55:00,413 - INFO - X_valid_trans_df ensure_numeric info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 11505 entries, 0 to 11504
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   cat__Gender_Female                                     11505 non-null  float64
+ 1   cat__Gender_Male                                       11505 non-null  float64
+ 2   cat__Vehicle_Damage_0                                  11505 non-null  float64
+ 3   cat__Vehicle_Damage_1                                  11505 non-null  float64
+ 4   minmax__Age                                            11505 non-null  float64
+ 5   minmax__Region_Code                                    11505 non-null  float64
+ 6   minmax__Previously_Insured                             11505 non-null  float64
+ 7   minmax__Policy_Sales_Channel                           11505 non-null  float64
+ 8   minmax__Vintage                                        11505 non-null  float64
+ 9   ordinal__Vehicle_Age                                   11505 non-null  float64
+ 10  robust__Annual_Premium                                 11505 non-null  float64
+ 11  standard__Age_Type                                     11505 non-null  float64
+ 12  standard__Age_x_Vehicle_Age                            11505 non-null  float64
+ 13  standard__Age_x_Vehicle_Damage                         11505 non-null  float64
+ 14  standard__Age_x_Previously_Insured                     11505 non-null  float64
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  11505 non-null  float64
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        11505 non-null  float64
+ 17  standard_2__Previously_Insured_x_Annual_Premium        11505 non-null  float64
+ 18  standard_2__Previously_Insured_x_Vintage               11505 non-null  float64
+ 19  standard_2__Previously_Insured_x_Age_Type              11505 non-null  float64
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  float64
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      11505 non-null  float64
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             11505 non-null  float64
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            11505 non-null  float64
+ 24  remainder__Driving_License                             11505 non-null  int64  
+ 25  remainder__age_bins                                    0 non-null      float64
+dtypes: float64(25), int64(1)
+memory usage: 2.3 MB
+
+2024-07-26 23:55:00,413 - INFO - Exploring Transformed Training DataFrame:
+2024-07-26 23:55:00,414 - INFO - Transformed Training shape: (46019, 26)
+2024-07-26 23:55:00,417 - INFO - Transformed Training info:
+2024-07-26 23:55:00,421 - INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 46019 entries, 0 to 46018
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   cat__Gender_Female                                     46019 non-null  float64
+ 1   cat__Gender_Male                                       46019 non-null  float64
+ 2   cat__Vehicle_Damage_0                                  46019 non-null  float64
+ 3   cat__Vehicle_Damage_1                                  46019 non-null  float64
+ 4   minmax__Age                                            46019 non-null  float64
+ 5   minmax__Region_Code                                    46019 non-null  float64
+ 6   minmax__Previously_Insured                             46019 non-null  float64
+ 7   minmax__Policy_Sales_Channel                           46019 non-null  float64
+ 8   minmax__Vintage                                        46019 non-null  float64
+ 9   ordinal__Vehicle_Age                                   46019 non-null  float64
+ 10  robust__Annual_Premium                                 46019 non-null  float64
+ 11  standard__Age_Type                                     46019 non-null  float64
+ 12  standard__Age_x_Vehicle_Age                            46019 non-null  float64
+ 13  standard__Age_x_Vehicle_Damage                         46019 non-null  float64
+ 14  standard__Age_x_Previously_Insured                     46019 non-null  float64
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  46019 non-null  float64
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        46019 non-null  float64
+ 17  standard_2__Previously_Insured_x_Annual_Premium        46019 non-null  float64
+ 18  standard_2__Previously_Insured_x_Vintage               46019 non-null  float64
+ 19  standard_2__Previously_Insured_x_Age_Type              46019 non-null  float64
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      46019 non-null  float64
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      46019 non-null  float64
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             46019 non-null  float64
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            46019 non-null  float64
+ 24  remainder__Driving_License                             46019 non-null  int64  
+ 25  remainder__age_bins                                    0 non-null      float64
+dtypes: float64(25), int64(1)
+memory usage: 9.1 MB
+
+2024-07-26 23:55:00,422 - INFO - Transformed Training summary statistics:
+2024-07-26 23:55:00,477 - INFO - Exploring Transformed Validation DataFrame:
+2024-07-26 23:55:00,477 - INFO - Transformed Validation shape: (11505, 26)
+2024-07-26 23:55:00,479 - INFO - Transformed Validation info:
+2024-07-26 23:55:00,483 - INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 11505 entries, 0 to 11504
+Data columns (total 26 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   cat__Gender_Female                                     11505 non-null  float64
+ 1   cat__Gender_Male                                       11505 non-null  float64
+ 2   cat__Vehicle_Damage_0                                  11505 non-null  float64
+ 3   cat__Vehicle_Damage_1                                  11505 non-null  float64
+ 4   minmax__Age                                            11505 non-null  float64
+ 5   minmax__Region_Code                                    11505 non-null  float64
+ 6   minmax__Previously_Insured                             11505 non-null  float64
+ 7   minmax__Policy_Sales_Channel                           11505 non-null  float64
+ 8   minmax__Vintage                                        11505 non-null  float64
+ 9   ordinal__Vehicle_Age                                   11505 non-null  float64
+ 10  robust__Annual_Premium                                 11505 non-null  float64
+ 11  standard__Age_Type                                     11505 non-null  float64
+ 12  standard__Age_x_Vehicle_Age                            11505 non-null  float64
+ 13  standard__Age_x_Vehicle_Damage                         11505 non-null  float64
+ 14  standard__Age_x_Previously_Insured                     11505 non-null  float64
+ 15  standard_2__Previously_Insured_x_Policy_Sales_Channel  11505 non-null  float64
+ 16  standard_2__Previously_Insured_x_Vehicle_Damage        11505 non-null  float64
+ 17  standard_2__Previously_Insured_x_Annual_Premium        11505 non-null  float64
+ 18  standard_2__Previously_Insured_x_Vintage               11505 non-null  float64
+ 19  standard_2__Previously_Insured_x_Age_Type              11505 non-null  float64
+ 20  standard_2__Policy_Sales_Channel_x_Vehicle_Damage      11505 non-null  float64
+ 21  standard_2__Policy_Sales_Channel_x_Annual_Premium      11505 non-null  float64
+ 22  standard_2__Policy_Sales_Channel_x_Vintage             11505 non-null  float64
+ 23  standard_2__Policy_Sales_Channel_x_Age_Type            11505 non-null  float64
+ 24  remainder__Driving_License                             11505 non-null  int64  
+ 25  remainder__age_bins                                    0 non-null      float64
+dtypes: float64(25), int64(1)
+memory usage: 2.3 MB
+
+2024-07-26 23:55:00,483 - INFO - Transformed Validation summary statistics:
